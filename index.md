@@ -1,13 +1,14 @@
 ---
 layout: home
-title: Home
+title: Phong Le's Website
 ---
 
-# Phong Le's Portfolio
-
-Welcome to my personal portfolio! I'm Phong Le, a Biomedical Engineering and Computer Science student at Duke University, based in Murrells Inlet, South Carolina. This site showcases my professional journey, skills, and projects. It's structured like my resume for easy navigation, but dives deeper into my work with detailed project descriptions.
-
-![Phong Le Headshot](assets/images/background_headshot.png)
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <img src="assets/images/background_headshot.png" alt="Phong Le Headshot" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+  <div>
+    <p>Welcome to my personal portfolio! I'm Phong Le, a Biomedical Engineering and Computer Science student at Duke University, based in Murrells Inlet, South Carolina. This site showcases my professional journey, skills, and projects. It's structured like my resume for easy navigation, but dives deeper into my work with detailed project descriptions.</p>
+  </div>
+</div>
 
 ## About Me
 I'm a dual-degree candidate pursuing a B.S.E. in Biomedical Engineering and a B.A. in Computer Science at Duke University, with an anticipated graduation in May 2026. My work focuses on the intersection of machine learning, bioinstrumentation, computational drug discovery, and health tech. I'm passionate about leveraging technology for accessible healthcare solutions, from low-cost medical devices to scalable AI for antibiotic screening. Honors include being a Duke QuestBridge Scholar, Florence Family Scholarship Recipient, and Post Grata Award Recipient. In my free time, I enjoy exploring open-source contributions and hardware tinkering.
