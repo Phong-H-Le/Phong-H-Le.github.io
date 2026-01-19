@@ -1,6 +1,7 @@
 ---
-layout: home
-title: Home
+layout: single
+author_profile: true
+title: "Home"
 ---
 
 # Hi, I’m Phong 👋
