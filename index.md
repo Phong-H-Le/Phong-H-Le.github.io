@@ -1,7 +1,8 @@
 ---
 layout: home
-title: Intro
+title: Home
 ---
+Under Construction 🚧
 
 <div style="display: flex; align-items: center; gap: 24px; margin-top: 1.5rem;">
   <img
