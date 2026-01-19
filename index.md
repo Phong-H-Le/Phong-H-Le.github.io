@@ -96,19 +96,20 @@ Under Construction! (as of 1/18/2026) 🚧
   *Skills:* Leadership, Project Management, BLE, Flutter, Hardware–Software Integration
 
 ## Skills
+
 | Category | Skills |
-|----------|--------------------|
+|----------|--------|
 | Machine Learning | Python, PyTorch, Scikit-Learn, RDKit, Pandas, TensorFlow, Data Processing, Feature Engineering |
 | Research | Image & Signal Processing, Data Visualization, ODE Modeling, Numerical Simulation, AlphaFold |
-| Embedded & Hardware | PCB Milling, Soldering, Oscilloscopes, BLE (Bluetooth), Arduino, KiCad, 3D Printing | 
-| Software & Tools | Jupyter, GitHub, SQL, Firebase, Flutter, Fusion 360, C/C++, MATLAB | 
+| Embedded & Hardware | PCB Milling, Soldering, Oscilloscopes, BLE (Bluetooth), Arduino, KiCad, 3D Printing |
+| Software & Tools | Jupyter, GitHub, SQL, Firebase, Flutter, Fusion 360, C/C++, MATLAB |
+
 
 ## Contact
 Do not hesitate to reach out.
 - Email: phl6@duke.edu  
 - Phone: +1 843-957-2233  
-- LinkedIn: [linkedin.com/in/phong-h-le](https://www.linkedin.com/in/phong-h-le/)  
-- GitHub: [github.com/Phong-H-Le](https://github.com/Phong-H-Le)  
-- Home Address: Myrtle Beach, SC  
+- [LinkedIn](https://www.linkedin.com/in/phong-h-le/)  
+- [GitHub (under construction as of 1/18/26](YO FILL THIS IN LATER)    
 
 Portfolio hosted on GitHub Pages (as of January 2026).
