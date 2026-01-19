@@ -1,2 +1,3 @@
-# Phong-H-Le.github.io
-GitHub Pages
+# Portfolio
+
+A portfolio website containing about me, resume, and a catalogue of projects with media files hosted here. 
