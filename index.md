@@ -8,11 +8,12 @@ title: Phong Le's Website
     src="/assets/images/background_headshot.png"
     alt="Phong Le headshot"
     style="
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
+      width: 150px !important;
+      height: 150px !important;
+      border-radius: 9999px;
       object-fit: cover;
-      flex-shrink: 0;
+      display: block;
+      flex: 0 0 150px;
     "
   >
   <div style="max-width: 700px;">
