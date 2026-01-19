@@ -40,7 +40,7 @@ Under Construction! (as of 1/18/2026) 🚧
   *Durham, NC Anticipated Graduation: May 2026*
   - Coursework: Machine Learning & Imaging, Diagnostic Imaging, Bioinstrumentation, Signals & Systems, and Algorithms in Data Science. Emphasized hands-on projects in ML for healthcare and biosensor modeling.  
   - Honors/Awards: Duke QuestBridge Scholar, Florence Family Scholarship Recipient, Post Grata Award Recipient.  
-  - Links: [LinkedIn Profile](https://www.linkedin.com/in/phong-h-le/) | [Resume PDF (Under Construction as of 1/18/26)](assets/Resume-SP26-v2.1c.pdf)
+  - Links: [LinkedIn Profile](https://www.linkedin.com/in/phong-h-le/) · [Resume PDF (Under Construction as of 1/18/26)](assets/Resume-SP26-v2.1c.pdf)
 
 ## Experience and Projects
 - **Scalable Machine Learning for Antibiotic Virtual Screening – Computational Drug Discovery Project**  
