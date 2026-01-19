@@ -1,19 +1,3 @@
 title: Phong H Le
 description: Personal site
-logo: "/assets/images/background_headshot.png"
-
-remote_theme: "mmistakes/minimal-mistakes"
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
-
-author:
-  name: "Phong H Le"
-  avatar: "/assets/images/background_headshot.png"
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: single
+theme: minima
