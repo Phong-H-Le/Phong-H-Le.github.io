@@ -111,6 +111,6 @@ Do not hesitate to reach out.
 - Email: phl6@duke.edu  
 - Phone: +1 843-957-2233  
 - [LinkedIn](https://www.linkedin.com/in/phong-h-le/)  
-- [GitHub (under construction as of 1/18/26](YO FILL THIS IN LATER)    
+- [GitHub (under construction as of 1/18/26)](YO FILL THIS IN LATER)    
 
 Portfolio hosted on GitHub Pages (as of January 2026).
