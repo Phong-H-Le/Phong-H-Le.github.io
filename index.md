@@ -13,7 +13,7 @@ title: Intro
       border-radius: 9999px;
       object-fit: cover;
       display: block;
-      flex: 0 0 600px;
+      flex: 0 0 150px;
     "
   >
   <div style="max-width: 600px;">
