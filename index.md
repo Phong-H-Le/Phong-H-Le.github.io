@@ -13,7 +13,7 @@ title: Phong Le's Website
       border-radius: 9999px;
       object-fit: cover;
       display: block;
-      flex: 0 0 150px;
+      flex: 0 0 600px;
     "
   >
   <div style="max-width: 700px;">
