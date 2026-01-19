@@ -1,5 +1,6 @@
 title: Phong H Le
 description: Personal site
+logo: "/assets/images/background_headshot.png"
 
 remote_theme: "mmistakes/minimal-mistakes"
 
@@ -16,4 +17,3 @@ defaults:
       path: ""
     values:
       layout: single
-      author_profile: true
