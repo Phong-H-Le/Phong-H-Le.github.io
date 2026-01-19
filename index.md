@@ -18,11 +18,7 @@ title: Phong Le's Website
   >
   <div style="max-width: 600px;">
     <p>
-      Welcome to my personal portfolio! I’m Phong Le, a Biomedical Engineering
-      and Computer Science student at Duke University. This site showcases my
-      professional journey, skills, and projects. It’s structured like my
-      resume for easy navigation, but dives deeper into my work with detailed
-      project descriptions.
+Welcome test1
     </p>
   </div>
 </div>
