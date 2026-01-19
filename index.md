@@ -22,7 +22,7 @@ Under Construction! (as of 1/18/2026) 🚧
       I'm a dual-degree undergraduate at Duke University. 
       Pursuing a B.S.E. in Biomedical Engineering & B.A. in Computer Science.<br>
       My work focuses on machine learning, diagnostic imaging, bioinstrumentation, and health tech.
-      I enjoy breaking down complex systems into clear and intuitive models.<br>
+      I enjoy breaking down complex systems into clear and explainable blocks.<br>
       Born in Hue City, Vietnam & raised in Myrtle Beach, SC.
       In my free time, I enjoy reading classics and theology, going to the gym, and cooking.<br>
       Read my reviews &amp; other blogging:
