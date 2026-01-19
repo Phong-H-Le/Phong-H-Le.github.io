@@ -9,7 +9,7 @@ plugins:
 
 author:
   name: "Phong H Le"
-  avatar: "/assets/images/profile.jpg"
+  avatar: "/assets/images/background_headshot.jpg"
 
 defaults:
   - scope:
