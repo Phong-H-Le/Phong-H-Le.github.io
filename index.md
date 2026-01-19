@@ -27,7 +27,7 @@ Under Construction! (as of 1/18/2026) 🚧
       In my free time, I enjoy reading classics and theology, going to the gym, and cooking.
       Read my GoodReads &amp; other blogging:
       <a href="https://linktr.ee/ryoku_wave" target="_blank" rel="noopener noreferrer">
-        Linktree
+        Link
       </a>
       😊
     </p>
