@@ -19,13 +19,13 @@ Under Construction! (as of 1/18/2026) 🚧
   >
   <div style="max-width: 600px;">
     <p>
-      I'm a dual-degree undergraduate at Duke University as a QuestBridge Scholar (CO 2026).<br>
+      I'm a dual-degree undergraduate at Duke University as a QuestBridge Scholar (CO 2026). 
       Pursuing a B.S.E. in Biomedical Engineering and a B.A. in Computer Science.<br>
-      My work focuses on machine learning, bioinstrumentation, and health tech.<br>
+      My work focuses on machine learning, bioinstrumentation, and health tech.
       I enjoy breaking down complex systems into clear and intuitive models.<br>
-      Born in Hue City, Vietnam and raised in Myrtle Beach, SC.<br>
+      Born in Hue City, Vietnam and raised in Myrtle Beach, SC.
       In my free time, I enjoy reading classics and theology, going to the gym, and cooking.
-      Read my GoodReads &amp; other blogging:
+      Read my reviews &amp; other blogging:
       <a href="https://linktr.ee/ryoku_wave" target="_blank" rel="noopener noreferrer">
         Link
       </a>
@@ -45,32 +45,32 @@ Under Construction! (as of 1/18/2026) 🚧
 - **Scalable Machine Learning for Antibiotic Virtual Screening – Computational Drug Discovery Project**  
   *Durham, NC · Aug–Dec 2025*
   - Benchmarked GNEprop (Nature Biotechnology, 2025) against Chemprop and XGBoost on 2,560 antibiotic candidates, achieving **ROC-AUC 0.936**
-  - Implemented robust ML validation controls including scaffold-based splits and adversarial y-shuffling to detect data leakage
+  - Implemented robust ML validation controls, including scaffold-based splits and adversarial y-shuffling to detect data leakage
   - Quantified accuracy–compute trade-offs to optimize large-scale virtual screening pipelines
   - Demonstrated scalable ML approaches for high-throughput antibiotic discovery  
-  *Skills:* Python, PyTorch, Scikit-Learn, RDKit, Pandas
+  - *Skills:* Python, PyTorch, Scikit-Learn, RDKit, Pandas
 
 - **Arts North Carolina – Data Analyst & Policy Advocate**  
   *Durham, NC · Jan–May 2025*
-  - Collaborated with Arts NC leadership and the NC Department of Public Instruction to advocate for arts education Bill H418
+  - Collaborated with Arts NC leadership and the NC Department of Public Instruction to advocate for the arts education Bill H418
   - Harmonized four state and federal education datasets under regulatory and privacy constraints (e.g., FERPA)
   - Applied machine learning techniques to identify academic performance disparities linked to arts education access
   - Authored a legislative brief presented to **150+ legislators** during Arts Day NC  
-  *Skills:* Python, Pandas, Scikit-Learn, SQL, Data Analysis
+  - *Skills:* Python, Pandas, Scikit-Learn, SQL, Data Analysis
 
 - **Systems Modeling of Gene-Circuit Biosensors – Gene Circuits Project**  
   *Durham, NC · Aug–Dec 2025*
   - Developed ODE-based biosensor models in Python to infer toxin concentrations from bioluminescent whole-cell data
   - Applied nonlinear optimization and bootstrapping to quantify sensor sensitivity, detection limits, and dynamic range
   - Modeled gene-circuit dynamics bridging synthetic biology and computational biosensing  
-  *Skills:* Python, SciPy, ODE Modeling, Numerical Optimization, Data Visualization
+  - *Skills:* Python, SciPy, ODE Modeling, Numerical Optimization, Data Visualization
 
 - **Electromyography (EMG) Circuit – Bioinstrumentation Project**  
   *Durham, NC · Aug–Dec 2024*
   - Designed an analog EMG front-end using instrumentation amplifiers and bandpass filtering for muscle signal acquisition
   - Optimized gain staging and noise rejection to isolate bicep and tricep activations
   - Validated signal fidelity in low-noise environments for rehabilitation and prosthetic applications  
-  *Skills:* Analog Electronics, Signal Processing, MATLAB, Python, Oscilloscopes
+  - *Skills:* Analog Electronics, Signal Processing, MATLAB, Python, Oscilloscopes
 
 - **Analog Hearing Aid for Low-Resource Settings – Bioinstrumentation Project**  
   *Durham, NC · Aug–Dec 2023*
@@ -78,14 +78,14 @@ Under Construction! (as of 1/18/2026) 🚧
   - Engineered dual-passband filters optimized for speech frequencies (500–3000 Hz)
   - Analyzed signal fidelity using MATLAB, Python, and oscilloscope measurements
   - Validated performance with user trials achieving a **4.4/5 speech intelligibility score** (ANSI-compliant)  
-  *Skills:* Analog Circuit Design, Signal Processing, MATLAB, Python, KiCad
+  - *Skills:* Analog Circuit Design, Signal Processing, MATLAB, Python, KiCad
 
 - **Automated Computational Antibiotics Modeling Lab – Research Project with Dr. Michael Lynch**  
   *Durham, NC · Jan–May 2023*
   - Built an automated in silico screening pipeline for antibiotic analogues using molecular dynamics simulations
   - Developed a Python-based workflow integrated with ChimeraX, increasing throughput by ~**100×**
   - Applied AlphaFold and RDKit for large-scale structure-based and cheminformatics analysis  
-  *Skills:* Python, Molecular Dynamics, AlphaFold, RDKit, Automation
+  - *Skills:* Python, Molecular Dynamics, AlphaFold, RDKit, Automation
 
 ## Leadership and Activities
 - **MEDesign – Co-President**  
@@ -94,7 +94,7 @@ Under Construction! (as of 1/18/2026) 🚧
   - Coordinated project planning, mentorship, and organizational operations
   - Directed development of an app-linked wearable breathalyzer (BLE hardware, Flutter app, data transmission)
   - Led a 5-member team to a functional MVP in **4 months**  
-  *Skills:* Leadership, Project Management, BLE, Flutter, Hardware–Software Integration
+  - *Skills:* Leadership, Project Management, BLE, Flutter, Hardware–Software Integration
 
 ## Skills
 
