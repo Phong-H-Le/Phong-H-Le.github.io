@@ -24,7 +24,7 @@ Under Construction! (as of 1/18/2026) 🚧
       My work focuses on machine learning, bioinstrumentation, and health tech.
       I enjoy breaking down complex systems into clear and intuitive models.<br>
       Born in Hue City, Vietnam and raised in Myrtle Beach, SC.
-      In my free time, I enjoy reading classics and theology, going to the gym, and cooking.
+      In my free time, I enjoy reading classics and theology, going to the gym, and cooking.<br>
       Read my reviews &amp; other blogging:
       <a href="https://linktr.ee/ryoku_wave" target="_blank" rel="noopener noreferrer">
         Link
