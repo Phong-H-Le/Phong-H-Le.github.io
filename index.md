@@ -16,7 +16,7 @@ title: Phong Le's Website
       flex: 0 0 600px;
     "
   >
-  <div style="max-width: 700px;">
+  <div style="max-width: 600px;">
     <p>
       Welcome to my personal portfolio! I’m Phong Le, a Biomedical Engineering
       and Computer Science student at Duke University. This site showcases my
