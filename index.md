@@ -26,6 +26,7 @@ title: Phong Le's Website
   </div>
 </div>
 
+
 ## About Me
 I'm a dual-degree candidate pursuing a B.S.E. in Biomedical Engineering and a B.A. in Computer Science at Duke University, with an anticipated graduation in May 2026. My work focuses on the intersection of machine learning, bioinstrumentation, computational drug discovery, and health tech. I'm passionate about leveraging technology for accessible healthcare solutions, from low-cost medical devices to scalable AI for antibiotic screening. Honors include being a Duke QuestBridge Scholar, Florence Family Scholarship Recipient, and Post Grata Award Recipient. In my free time, I enjoy exploring open-source contributions and hardware tinkering.
 
