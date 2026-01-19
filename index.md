@@ -3,10 +3,26 @@ layout: home
 title: Phong Le's Website
 ---
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
-  <img src="assets/images/background_headshot.png" alt="Phong Le Headshot" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
-  <div>
-    <p>Welcome to my personal portfolio! I'm Phong Le, a Biomedical Engineering and Computer Science student at Duke University, based in Murrells Inlet, South Carolina. This site showcases my professional journey, skills, and projects. It's structured like my resume for easy navigation, but dives deeper into my work with detailed project descriptions.</p>
+<div style="display: flex; align-items: center; gap: 24px; margin-top: 1.5rem;">
+  <img
+    src="/assets/images/background_headshot.png"
+    alt="Phong Le headshot"
+    style="
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+    "
+  >
+  <div style="max-width: 700px;">
+    <p>
+      Welcome to my personal portfolio! I’m Phong Le, a Biomedical Engineering
+      and Computer Science student at Duke University. This site showcases my
+      professional journey, skills, and projects. It’s structured like my
+      resume for easy navigation, but dives deeper into my work with detailed
+      project descriptions.
+    </p>
   </div>
 </div>
 
