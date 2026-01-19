@@ -4,4 +4,5 @@ theme: minima
 
 header_pages:
   - index.md
-  - projects.md
+  # Add this later
+  # - projects.md
