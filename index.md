@@ -17,16 +17,21 @@ Under Construction! (as of 1/18/2026) 🚧
       flex: 0 0 150px;
     "
   >
-<div style="max-width: 600px;">
-<p>
-I'm a dual-degree undergraduate at Duke University as a QuestBridge Scholar (CO 2026).<br>
-Pursuing a B.S.E. in Biomedical Engineering and a B.A. in Computer Science.<br>
-My work focuses on machine learning, bioinstrumentation, and health tech.<br>
-I enjoy breaking down complex systems into clear and intuitive models.<br>
-Born in Vietnam and raised in Myrtle Beach, SC.<br>
-In my free time, I enjoy reading classics and theology, going to the gym, and cooking. 😊
-</p>
-</div>
+  <div style="max-width: 600px;">
+    <p>
+      I'm a dual-degree undergraduate at Duke University as a QuestBridge Scholar (CO 2026).<br>
+      Pursuing a B.S.E. in Biomedical Engineering and a B.A. in Computer Science.<br>
+      My work focuses on machine learning, bioinstrumentation, and health tech.<br>
+      I enjoy breaking down complex systems into clear and intuitive models.<br>
+      Born in Hue City, Vietnam and raised in Myrtle Beach, SC.<br>
+      In my free time, I enjoy reading classics and theology, going to the gym, and cooking.
+      Read my GoodReads &amp; other blogging:
+      <a href="https://linktr.ee/ryoku_wave" target="_blank" rel="noopener noreferrer">
+        Linktree
+      </a>
+      😊
+    </p>
+  </div>
 </div>
 
 ## Education
