@@ -1,10 +1,18 @@
 title: Phong H Le
 description: Personal site
+
 remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
-minimal_mistakes_skin: "air
-::contentReference[oaicite:4]{index=4}
+author:
+  name: "Phong H Le"
+  avatar: "/assets/images/profile.jpg"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
