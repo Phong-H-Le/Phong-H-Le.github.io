@@ -17,15 +17,14 @@ Under Construction! (as of 1/18/2026) 🚧
       flex: 0 0 150px;
     "
   >
-  <div style="max-width: 600px;">
-    <p>
-I'm a dual-degree undergraduate at Duke University as a Questbridge Scholar (CO 2026).
-Pursuing B.S.E. in Biomedical Engineering and a B.A. in Computer Science.
-My work focuses on machine learning, bioinstrumentation, and health tech.
-I'm all about breaking down complex systems into clear and simple pictures. 
-Originally born in Vietnam, I immigrated to Myrtle Beach, SC. In my free time, I enjoy reading classics & theology, going to the gym, and cooking delicious food. 😊
-    </p>
-  </div>
+<div style="max-width: 600px;">
+  <p>I'm a dual-degree undergraduate at Duke University as a QuestBridge Scholar (CO 2026).</p>
+  <p>Pursuing a B.S.E. in Biomedical Engineering and a B.A. in Computer Science.</p>
+  <p>My work focuses on machine learning, bioinstrumentation, and health tech.</p>
+  <p>I enjoy breaking down complex systems into clear and intuitive models.</p>
+  <p>Born in Vietnam and raised in Myrtle Beach, SC.</p>
+  <p>In my free time, I enjoy reading classics and theology, going to the gym, and cooking. 😊</p>
+</div>
 </div>
 
 ## Education
