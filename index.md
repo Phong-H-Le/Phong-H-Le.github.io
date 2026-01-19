@@ -2,7 +2,7 @@
 layout: home
 title: Home
 ---
-Under Construction 🚧
+Under Construction! (as of 1/18/2026) 🚧
 
 <div style="display: flex; align-items: center; gap: 24px; margin-top: 1.5rem;">
   <img
@@ -19,14 +19,14 @@ Under Construction 🚧
   >
   <div style="max-width: 600px;">
     <p>
-Welcome test1
+I'm a dual-degree undergraduate at Duke University as a Questbridge Scholar (CO 2026).
+Pursuing B.S.E. in Biomedical Engineering and a B.A. in Computer Science.
+My work focuses on machine learning, bioinstrumentation, and health tech.
+I'm all about breaking down complex systems into clear and simple pictures. 
+Originally born in Vietnam, I immigrated to Myrtle Beach, SC. In my free time, I enjoy reading classics & theology, going to the gym, and cooking delicious food. 😊
     </p>
   </div>
 </div>
-
-
-## About Me
-I'm a dual-degree candidate pursuing a B.S.E. in Biomedical Engineering and a B.A. in Computer Science at Duke University, with an anticipated graduation in May 2026. My work focuses on the intersection of machine learning, bioinstrumentation, computational drug discovery, and health tech. I'm passionate about leveraging technology for accessible healthcare solutions, from low-cost medical devices to scalable AI for antibiotic screening. Honors include being a Duke QuestBridge Scholar, Florence Family Scholarship Recipient, and Post Grata Award Recipient. In my free time, I enjoy exploring open-source contributions and hardware tinkering.
 
 ## Education
 - **B.S.E. Biomedical Engineering | B.A. Computer Science** - Duke University, Durham, NC  
@@ -35,7 +35,7 @@ I'm a dual-degree candidate pursuing a B.S.E. in Biomedical Engineering and a B.
   Honors/Awards: Duke QuestBridge Scholar, Florence Family Scholarship Recipient, Post Grata Award Recipient.  
   Links/Files: [LinkedIn Profile](https://www.linkedin.com/in/phong-h-le/) | [Resume PDF (v2.1c)](assets/Resume-SP26-v2.1c.pdf) | [Resume PDF (v2.1b)](assets/Resume-SP26-v2.1b.pdf)
 
-## Professional Experience and Projects
+## Experience and Projects
 This section combines my experiences and projects, mirroring my resume structure. I've expanded on each with in-depth details based on my involvement, including technical challenges, methodologies, and outcomes.
 
 - **Scalable Machine Learning for Antibiotic Virtual Screening** - Computational Drug Discovery Project, Durham, NC  
