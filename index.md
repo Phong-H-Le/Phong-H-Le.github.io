@@ -2,8 +2,6 @@
 layout: home
 title: Home
 ---
-Under Construction! (as of 1/18/2026) 🚧
-
 <div style="display: flex; align-items: center; gap: 24px; margin-top: 1.5rem;">
   <img
     src="/assets/images/background_headshot.png"
@@ -24,7 +22,7 @@ Under Construction! (as of 1/18/2026) 🚧
       My work focuses on machine learning, diagnostic imaging, bioinstrumentation, and health tech.
       I enjoy breaking down complex systems into clear and explainable blocks.<br>
       Born in Hue City, Vietnam & raised in Myrtle Beach, SC.
-      In my free time, I enjoy reading classics and theology, going to the gym, and cooking.<br>
+      In my free time, I enjoy reading classics/theology, going to the gym, and cooking.<br>
       Read my reviews &amp; other blogging:
       <a href="https://linktr.ee/ryoku_wave" target="_blank" rel="noopener noreferrer">
         Link
