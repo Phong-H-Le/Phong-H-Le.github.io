@@ -33,8 +33,8 @@ title: Home
 </div>
 
 ## Education
-- **B.S.E. Biomedical Engineering | B.A. Computer Science**<br>
-  **Duke University**<br>
+- **Duke University**<br>
+  ***B.S.E. Biomedical Engineering | B.A. Computer Science***
   *Durham, NC · Anticipated Graduation: May 2026*
   - Coursework: Machine Learning & Imaging, Diagnostic Imaging, Bioinstrumentation, Signals & Systems, and Algorithms in Data Science. Emphasized hands-on projects in ML for healthcare and biosensor modeling.  
   - Honors/Awards: Duke QuestBridge Scholar, Florence Family Scholarship Recipient, Post Grata Award Recipient.  
