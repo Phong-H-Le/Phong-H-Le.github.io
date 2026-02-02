@@ -15,7 +15,7 @@ You will find detailed documentation of my engineering/research work, including 
   <!-- WiFi-RF Imaging Project -->
   <div class="project-card">
     <a href="/projects/wifi-rf/" style="text-decoration: none; color: inherit;">
-      <img src="/assets/projects/wifi-rf/thumbnail.png" alt="WiFi-RF Imaging" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/6c5ce7/ffffff?text=WiFi-RF+Imaging'">
+      <img src="/assets/projects/wifi-rf/thumbnail.jpg" alt="WiFi-RF Imaging" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/6c5ce7/ffffff?text=WiFi-RF+Imaging'">
       <div class="project-card-content">
         <h3 class="project-card-title">WiFi-RF Imaging Project</h3>
         <p class="project-card-date">Jan 2026 - Present | Work in Progress</p>
@@ -41,7 +41,7 @@ You will find detailed documentation of my engineering/research work, including 
     <a href="/projects/scalable-ml/" style="text-decoration: none; color: inherit;">
       <img src="/assets/projects/scalable-ml/presentation-thumbnail-scalable-ml.png" alt="Scalable ML Project" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/0366d6/ffffff?text=Scalable+ML+Project'">
       <div class="project-card-content">
-        <h3 class="project-card-title">Scalable ML for Antibiotic Virtual Screening</h3>
+        <h3 class="project-card-title">Scalable ML for Antibiotic Screening</h3>
         <p class="project-card-date">Aug - Dec 2025 | Duke University</p>
         <p class="project-card-description">
           Benchmarked GNEprop against Chemprop and XGBoost on 2,560 antibiotic candidates, achieving ROC-AUC 0.936 with robust ML validation.
@@ -90,7 +90,7 @@ You will find detailed documentation of my engineering/research work, including 
     <a href="/projects/arts-nc/" style="text-decoration: none; color: inherit;">
       <img src="/assets/projects/arts-nc/thumbnail.png" alt="Arts NC Project" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/e17055/ffffff?text=Arts+NC+Analytics'">
       <div class="project-card-content">
-        <h3 class="project-card-title">Data Analytics - Arts North Carolina</h3>
+        <h3 class="project-card-title">Data Analytics Project w/ Arts NC</h3>
         <p class="project-card-date">Jan - Apr 2025 | Arts North Carolina</p>
         <p class="project-card-description">
           Produced legislative research supporting NC Bill H418, analyzing arts education impact across 4 state/federal datasets for 150+ legislators.
@@ -114,7 +114,7 @@ You will find detailed documentation of my engineering/research work, including 
     <a href="/projects/emg-circuit/" style="text-decoration: none; color: inherit;">
       <img src="/assets/projects/emg-circuit/thumbnail.png" alt="EMG Circuit" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/fdcb6e/000000?text=EMG+Circuit'">
       <div class="project-card-content">
-        <h3 class="project-card-title">Electromyography (EMG) Circuit</h3>
+        <h3 class="project-card-title">Electromyography (EMG)</h3>
         <p class="project-card-date">Jan - May 2024 | Duke University</p>
         <p class="project-card-description">
           Designed an analog EMG front-end with instrumentation amplifiers and bandpass filtering for muscle signal acquisition.
@@ -162,7 +162,7 @@ You will find detailed documentation of my engineering/research work, including 
     <a href="/projects/hearing-aid/" style="text-decoration: none; color: inherit;">
       <img src="/assets/projects/hearing-aid/thumbnail.png" alt="Hearing Aid Project" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/00cec9/ffffff?text=Hearing+Aid'">
       <div class="project-card-content">
-        <h3 class="project-card-title">Analog Hearing Aid for Low-Resource Settings</h3>
+        <h3 class="project-card-title">Analog Hearing Aid</h3>
         <p class="project-card-date">Aug - Dec 2023 | Duke University</p>
         <p class="project-card-description">
           Designed a low-cost hearing aid prototype (<$30), achieving <2% harmonic distortion, 55× gain, and 4.4/5 speech intelligibility.
@@ -186,7 +186,7 @@ You will find detailed documentation of my engineering/research work, including 
     <a href="/projects/bac-on-track/" style="text-decoration: none; color: inherit;">
       <img src="/assets/projects/bac-on-track/thumbnail.png" alt="BAC-on-Track" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/a29bfe/ffffff?text=BAC-on-Track'">
       <div class="project-card-content">
-        <h3 class="project-card-title">BAC-on-Track: Wearable Breathalyzer</h3>
+        <h3 class="project-card-title">Wearable Breathalyzer</h3>
         <p class="project-card-date">Aug - Dec 2023 | Duke University</p>
         <p class="project-card-description">
           Arm-wearable breathalyzer with Bluetooth connectivity to iOS/Android apps for real-time BAC monitoring.
@@ -210,7 +210,7 @@ You will find detailed documentation of my engineering/research work, including 
     <a href="/projects/lynch-lab/" style="text-decoration: none; color: inherit;">
       <img src="/assets/projects/lynch-lab/thumbnail.png" alt="Lynch Lab Project" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/74b9ff/ffffff?text=Lynch+Lab'">
       <div class="project-card-content">
-        <h3 class="project-card-title">Michael Lynch Lab - Independent Study</h3>
+        <h3 class="project-card-title">Independent Study w/ Michael Lynch Lab</h3>
         <p class="project-card-date">Jan - Aug 2023 | Duke University</p>
         <p class="project-card-description">
           Built an automated in silico screening pipeline for antibiotic analogues, increasing molecular simulation throughput by ~100×.
@@ -234,7 +234,7 @@ You will find detailed documentation of my engineering/research work, including 
     <a href="/projects/als-feeding/" style="text-decoration: none; color: inherit;">
       <img src="/assets/projects/als-feeding/thumbnail.png" alt="ALS Feeding Device" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/fab1a0/ffffff?text=ALS+Assistive'">
       <div class="project-card-content">
-        <h3 class="project-card-title">ALS Assistive Gastrostomy Tube Feeding</h3>
+        <h3 class="project-card-title">ALS Assistive Feeding System</h3>
         <p class="project-card-date">Aug - Dec 2021 | Duke University</p>
         <p class="project-card-description">
           Designed a motorized pulley system with Arduino controls enabling ALS patients to independently manage tube feeding.

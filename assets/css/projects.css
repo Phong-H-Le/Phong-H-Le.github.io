@@ -14,6 +14,24 @@
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card > a {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.project-card > a > .project-card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card > a > .project-card-content > .project-card-tags {
+  margin-top: auto;
 }
 
 .project-card:hover {
@@ -37,6 +55,13 @@
   font-weight: 600;
   margin: 0 0 0.5rem 0;
   color: #24292e;
+}
+
+/* Prevent visited link color changes on cards */
+.project-card a:visited .project-card-title,
+.project-card a:visited .project-card-description,
+.project-card a:visited .project-card-date {
+  color: inherit;
 }
 
 .project-card-date {
@@ -93,6 +118,11 @@
   color: white;
 }
 
+.project-link-primary:visited {
+  background: #0366d6;
+  color: white;
+}
+
 .project-link-primary:hover {
   background: #0256b9;
   color: white;
@@ -104,11 +134,21 @@
   border: 1px solid #e1e4e8;
 }
 
+.project-link-secondary:visited {
+  background: #f6f8fa;
+  color: #24292e;
+}
+
 .project-link-secondary:hover {
   background: #e1e4e8;
 }
 
 .project-link-download {
+  background: #28a745;
+  color: white;
+}
+
+.project-link-download:visited {
   background: #28a745;
   color: white;
 }
