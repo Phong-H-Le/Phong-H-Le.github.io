@@ -27,6 +27,9 @@ title: Home
     I'm actively seeking full-time opportunities and internships in medical device development, imaging technology, and applied machine learning. Experience includes applied ML/hardware projects and research in data analysis, policy, & computational modeling. 
   </p>
   <p>
+    I'm actively seeking full-time opportunities and internships in medical device development, imaging technology, and applied machine learning. Experience includes applied ML/hardware projects and research in data analysis, policy, & computational modeling. 
+  </p>
+  <p>
     Looking ahead, I'm passionate about building technologies that can impact <strong>healthcare</strong>, <strong>defense</strong>, and <strong>public systems</strong>. I love leveraging new research to make end-to-end projects.
   </p>
 </div>
@@ -48,18 +51,18 @@ title: Home
         <p>Connect with me</p>
       </div>
     </a>
-    <a href="https://medium.com/@ryoku_wave" target="_blank" class="resource-card">
-      <img src="/assets/images/resources/blog.jpg" alt="Blog preview" class="resource-card-image">
-      <div class="resource-card-content">
-        <h3>Blog</h3>
-        <p>Read my articles</p>
-      </div>
-    </a>
     <a href="/assets/Resume.pdf" download class="resource-card">
       <img src="/assets/images/resources/resume.png" alt="Resume preview" class="resource-card-image">
       <div class="resource-card-content">
         <h3>Resume</h3>
         <p>Download PDF</p>
+      </div>
+    </a>
+    <a href="https://medium.com/@ryoku_wave" target="_blank" class="resource-card">
+      <img src="/assets/images/resources/blog.jpg" alt="Blog preview" class="resource-card-image">
+      <div class="resource-card-content">
+        <h3>Blog</h3>
+        <p>Read my articles</p>
       </div>
     </a>
     <a href="mailto:phl6@duke.edu" class="resource-card">
