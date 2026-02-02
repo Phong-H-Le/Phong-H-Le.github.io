@@ -17,6 +17,7 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  min-height: 420px; /* Ensures more consistent card heights */
 }
 
 /* Make the clickable area grow to fill space */
@@ -28,21 +29,24 @@
   color: inherit;
 }
 
-/* Content area inside the link should grow */
+/* Content area inside the link — groups title/date/desc/tags with consistent spacing */
 .project-card > a > .project-card-content {
   flex: 1;
   display: flex;
   flex-direction: column;
+  gap: 1rem;                    /* Fixed vertical spacing between elements */
+  padding: 1.5rem;
 }
 
-/* Push tags to bottom of content area */
-.project-card > a > .project-card-content > .project-card-tags {
-  margin-top: auto;
-}
-
-/* Buttons section at bottom - doesn't grow, stays at bottom */
-.project-card > .project-card-content:last-child {
-  margin-top: auto;
+/* Buttons/links section pushed to bottom */
+.project-card-links {
+  margin-top: auto;             /* Pushes buttons to the bottom of the card */
+  padding: 1rem 1.5rem;
+  border-top: 1px solid #e1e4e8;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  background: #f8f9fa;          /* Subtle separation from content */
 }
 
 .project-card:hover {
@@ -57,14 +61,10 @@
   border-bottom: 1px solid #e1e4e8;
 }
 
-.project-card-content {
-  padding: 1.5rem;
-}
-
 .project-card-title {
   font-size: 1.25rem;
   font-weight: 600;
-  margin: 0 0 0.5rem 0;
+  margin: 0;
   color: #24292e;
 }
 
@@ -78,21 +78,22 @@
 .project-card-date {
   font-size: 0.875rem;
   color: #6a737d;
-  margin-bottom: 1rem;
+  margin: 0;
 }
 
 .project-card-description {
   font-size: 0.95rem;
   color: #444d56;
   line-height: 1.6;
-  margin-bottom: 1rem;
+  margin: 0;
 }
 
 .project-card-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin: 0;
+  margin-bottom: 0.5rem;        /* Breathing room before buttons/border */
 }
 
 .project-tag {
@@ -102,14 +103,6 @@
   border-radius: 20px;
   font-size: 0.75rem;
   font-weight: 500;
-}
-
-.project-card-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  padding-top: 1rem;
-  border-top: 1px solid #e1e4e8;
 }
 
 .project-link {
@@ -162,6 +155,7 @@
 }
 
 /* Full Project Detail Page Styles */
+
 .project-detail {
   max-width: 900px;
   margin: 0 auto;
