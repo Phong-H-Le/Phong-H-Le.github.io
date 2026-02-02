@@ -10,15 +10,6 @@ permalink: /projects/scalable-ml/
 
 <div class="project-detail">
 
-<div class="project-detail-header">
-  <h1 class="project-detail-title">Scalable Machine Learning for Antibiotic Virtual Screening</h1>
-  <p class="project-detail-meta">
-    <strong>Duration:</strong> August - December 2025<br>
-    <strong>Location:</strong> Duke University, Durham, NC<br>
-    <strong>Course:</strong> Machine Learning & Imaging (BME 548L)
-  </p>
-</div>
-
 <div class="tech-stack">
   <span class="tech-pill">Python</span>
   <span class="tech-pill">PyTorch</span>
@@ -28,32 +19,13 @@ permalink: /projects/scalable-ml/
   <span class="tech-pill">Cheminformatics</span>
 </div>
 
-<div class="project-section">
-
-### Overview
+<h3>Overview</h3>
 
 This project addressed the critical challenge of antibiotic resistance by developing and benchmarking scalable machine learning approaches for virtual screening of antibiotic candidates. Working with computational drug discovery methods, I evaluated state-of-the-art graph neural networks against traditional ML baselines to optimize large-scale screening pipelines.
 
-</div>
-
 <div class="project-section">
 
-### Key Accomplishments
-
-<ul class="project-highlights">
-  <li>Benchmarked <strong>GNEprop</strong> (Nature Biotechnology, 2025) against Chemprop and XGBoost on 2,560 antibiotic candidates</li>
-  <li>Achieved <strong>ROC-AUC of 0.936</strong> on held-out test sets</li>
-  <li>Implemented robust ML validation controls including scaffold-based splits to prevent data leakage</li>
-  <li>Applied adversarial y-shuffling techniques to validate model learning vs. memorization</li>
-  <li>Quantified accuracy-compute trade-offs to optimize large-scale virtual screening pipelines</li>
-  <li>Demonstrated scalable ML approaches suitable for high-throughput antibiotic discovery</li>
-</ul>
-
-</div>
-
-<div class="project-section">
-
-### Presentation
+<h3>Presentation</h3>
 
 <div class="embed-container">
   <iframe src="https://docs.google.com/presentation/d/13CNicf0F2OOfqr5G2zVu5gawpYUTqZsEXWZDdDTiAVA/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -69,51 +41,7 @@ This project addressed the critical challenge of antibiotic resistance by develo
 
 <div class="project-section">
 
-### Media Gallery
-
-<div class="media-grid">
-  <figure class="media-item">
-    <img src="/assets/projects/scalable-ml/pipeline.png" alt="ML Pipeline Diagram" onerror="this.parentElement.style.display='none'">
-    <figcaption>Machine Learning Pipeline Architecture</figcaption>
-  </figure>
-  <figure class="media-item">
-    <img src="/assets/projects/scalable-ml/results.png" alt="ROC Curve Results" onerror="this.parentElement.style.display='none'">
-    <figcaption>Model Performance Comparison (ROC Curves)</figcaption>
-  </figure>
-</div>
-
-<p><em>Add images to <code>/assets/projects/scalable-ml/</code> to display them here.</em></p>
-
-</div>
-
-<div class="project-section">
-
-### Downloads
-
-<div class="downloads-section">
-  <h4>Project Resources</h4>
-  <ul class="download-list">
-    <li>
-      <a href="/assets/projects/downloads/scalable-ml-report.pdf" class="download-link" download>
-        <span>Final Report (PDF)</span>
-        <span class="file-size"></span>
-      </a>
-    </li>
-    <li>
-      <a href="/assets/projects/downloads/scalable-ml-poster.pdf" class="download-link" download>
-        <span>Project Poster (PDF)</span>
-        <span class="file-size"></span>
-      </a>
-    </li>
-  </ul>
-  <p><em>Place downloadable files in <code>/assets/projects/downloads/</code></em></p>
-</div>
-
-</div>
-
-<div class="project-section">
-
-### Methods & Technical Details
+<h3>Methods & Technical Details</h3>
 
 **Data Processing:**
 - Utilized RDKit for molecular fingerprint generation and chemical descriptor calculation
