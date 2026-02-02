@@ -25,21 +25,6 @@ This project addressed the critical challenge of antibiotic resistance by develo
 
 <div class="project-section">
 
-<h3>Key Accomplishments</h3>
-
-<ul class="project-highlights">
-  <li>Benchmarked <strong>GNEprop</strong> (Nature Biotechnology, 2025) against Chemprop and XGBoost on 2,560 antibiotic candidates</li>
-  <li>Achieved <strong>ROC-AUC of 0.936</strong> on held-out test sets</li>
-  <li>Implemented robust ML validation controls including scaffold-based splits to prevent data leakage</li>
-  <li>Applied adversarial y-shuffling techniques to validate model learning vs. memorization</li>
-  <li>Quantified accuracy-compute trade-offs to optimize large-scale virtual screening pipelines</li>
-  <li>Demonstrated scalable ML approaches suitable for high-throughput antibiotic discovery</li>
-</ul>
-
-</div>
-
-<div class="project-section">
-
 <h3>Presentation</h3>
 
 <div class="embed-container">
@@ -51,50 +36,6 @@ This project addressed the critical challenge of antibiotic resistance by develo
     Open in Google Slides
   </a>
 </p>
-
-</div>
-
-<div class="project-section">
-
-<h3>Media Gallery</h3>
-
-<div class="media-grid">
-  <figure class="media-item">
-    <img src="/assets/projects/scalable-ml/pipeline.png" alt="ML Pipeline Diagram" onerror="this.parentElement.style.display='none'">
-    <figcaption>Machine Learning Pipeline Architecture</figcaption>
-  </figure>
-  <figure class="media-item">
-    <img src="/assets/projects/scalable-ml/results.png" alt="ROC Curve Results" onerror="this.parentElement.style.display='none'">
-    <figcaption>Model Performance Comparison (ROC Curves)</figcaption>
-  </figure>
-</div>
-
-<p><em>Add images to <code>/assets/projects/scalable-ml/</code> to display them here.</em></p>
-
-</div>
-
-<div class="project-section">
-
-<h3>Downloads</h3>
-
-<div class="downloads-section">
-  <h4>Project Resources</h4>
-  <ul class="download-list">
-    <li>
-      <a href="/assets/projects/downloads/scalable-ml-report.pdf" class="download-link" download>
-        <span>Final Report (PDF)</span>
-        <span class="file-size"></span>
-      </a>
-    </li>
-    <li>
-      <a href="/assets/projects/downloads/scalable-ml-poster.pdf" class="download-link" download>
-        <span>Project Poster (PDF)</span>
-        <span class="file-size"></span>
-      </a>
-    </li>
-  </ul>
-  <p><em>Place downloadable files in <code>/assets/projects/downloads/</code></em></p>
-</div>
 
 </div>
 
