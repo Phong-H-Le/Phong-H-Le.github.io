@@ -78,7 +78,7 @@ You will find detailed documentation of my engineering/research work, including 
 
 <div class="project-section">
 
-### Overview
+# Overview
 
 This project addressed the critical challenge of antibiotic resistance by developing and benchmarking scalable machine learning approaches for virtual screening of antibiotic candidates. Working with computational drug discovery methods, I evaluated state-of-the-art graph neural networks against traditional ML baselines to optimize large-scale screening pipelines.
 
@@ -86,7 +86,7 @@ This project addressed the critical challenge of antibiotic resistance by develo
 
 <div class="project-section">
 
-### Key Accomplishments
+# Key Accomplishments
 
 <ul class="project-highlights">
   <li>Benchmarked <strong>GNEprop</strong> (Nature Biotechnology, 2025) against Chemprop and XGBoost on 2,560 antibiotic candidates</li>
@@ -101,7 +101,7 @@ This project addressed the critical challenge of antibiotic resistance by develo
 
 <div class="project-section">
 
-### Presentation
+# Presentation
 
 <div class="embed-container">
   <iframe src="https://docs.google.com/presentation/d/13CNicf0F2OOfqr5G2zVu5gawpYUTqZsEXWZDdDTiAVA/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -117,7 +117,7 @@ This project addressed the critical challenge of antibiotic resistance by develo
 
 <div class="project-section">
 
-### Media Gallery
+# Media Gallery
 
 <div class="media-grid">
   <figure class="media-item">
@@ -136,7 +136,7 @@ This project addressed the critical challenge of antibiotic resistance by develo
 
 <div class="project-section">
 
-### Downloads
+# Downloads
 
 <div class="downloads-section">
   <h4>Project Resources</h4>
@@ -169,7 +169,7 @@ This project addressed the critical challenge of antibiotic resistance by develo
 
 <div class="project-section">
 
-### Methods & Technical Details
+# Methods & Technical Details
 
 **Data Processing:**
 - Utilized RDKit for molecular fingerprint generation and chemical descriptor calculation
