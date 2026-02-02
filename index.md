@@ -1,114 +1,149 @@
 ---
-layout: home
-title: Home
+layout: default
 ---
-<div style="display: flex; align-items: center; gap: 24px; margin-top: 1.5rem;">
-  <img
-    src="/assets/images/background_headshot.png"
-    alt="Phong Le headshot"
-    style="
-      width: 150px !important;
-      height: 150px !important;
-      border-radius: 9999px;
-      object-fit: cover;
-      display: block;
-      flex: 0 0 150px;
-    "
-  >
-  <div style="max-width: 600px;">
+
+<link rel="stylesheet" href="/assets/css/home.css">
+
+<div class="hero-section">
+  <div class="hero-content">
     <p>
-      I'm a dual-degree undergraduate at Duke University. 
-      Pursuing a B.S.E. in Biomedical Engineering & B.A. in Computer Science.<br>
-      My work focuses on machine learning, diagnostic imaging, bioinstrumentation, and health tech.
-      I enjoy breaking down complex systems into clear and explainable blocks.<br>
-      Born in Hue City, Vietnam & raised in Myrtle Beach, SC.
-      In my free time, I enjoy reading classics/theology, going to the gym, and cooking.<br>
-      Read my reviews &amp; other blogging:
-      <a href="https://linktr.ee/ryoku_wave" target="_blank" rel="noopener noreferrer">
-        Link
-      </a>
+      I'm a dual-degree undergraduate at <strong>Duke University</strong>, pursuing a B.S.E. in Biomedical Engineering and a B.A. in Computer Science. My work focuses on machine learning, diagnostic imaging, bioinstrumentation, and health technology.
     </p>
+    <p>
+      I enjoy breaking down complex systems into clear, explainable components. Born in Hue City, Vietnam and raised in Myrtle Beach, SC. In my free time, I enjoy reading classics and theology, going to the gym, and cooking.
+    </p>
+    <ul class="hero-education">
+      <li>Duke University - B.S.E. Biomedical Engineering & B.A. Computer Science (May 2026)</li>
+    </ul>
+  </div>
+  <div class="hero-image-container">
+    <img src="/assets/images/background_headshot.png" alt="Phong Le" class="hero-image">
   </div>
 </div>
 
-## Education
-- **Duke University**<br>
-  ***B.S.E. Biomedical Engineering | B.A. Computer Science***<br>
-  *Durham, NC · Anticipated Graduation: May 2026*
-  - Coursework: Machine Learning & Imaging, Diagnostic Imaging, Bioinstrumentation, Signals & Systems, and Algorithms in Data Science. Emphasized hands-on projects in ML for healthcare and biosensor modeling.  
-  - Honors/Awards: Duke QuestBridge Scholar, Florence Family Scholarship Recipient, Post Grata Award Recipient.  
-  - Links: [LinkedIn Profile](https://www.linkedin.com/in/phong-h-le/) · [Resume PDF (Under Construction as of 1/18/26)](assets/Resume-SP26-v2.1c.pdf)
+---
 
-## Experience and Projects
-- **Scalable Machine Learning for Antibiotic Virtual Screening – Computational Drug Discovery Project**  
-  *Durham, NC · Aug–Dec 2025*
-  - Benchmarked GNEprop (Nature Biotechnology, 2025) against Chemprop and XGBoost on 2,560 antibiotic candidates, achieving **ROC-AUC 0.936**
-  - Implemented robust ML validation controls, including scaffold-based splits and adversarial y-shuffling to detect data leakage
-  - Quantified accuracy–compute trade-offs to optimize large-scale virtual screening pipelines
-  - Demonstrated scalable ML approaches for high-throughput antibiotic discovery  
-  - *Skills:* Python, PyTorch, Scikit-Learn, RDKit, Pandas
+<div class="focus-section">
+  <h2>Current Focus & Future Goals</h2>
+  <p>
+    I'm actively seeking <strong>full-time opportunities and internships</strong> in medical device development, healthcare technology, and applied machine learning. My current work spans wireless sensing/imaging systems and ML-driven diagnostics.
+  </p>
+  <p>
+    Looking ahead, I'm passionate about building technologies that can impact <strong>healthcare</strong>, <strong>defense</strong>, and <strong>public systems</strong>—creating tools that make a tangible difference in people's lives.
+  </p>
+  <div class="focus-areas">
+    <span class="focus-tag">Medical Devices</span>
+    <span class="focus-tag">Machine Learning</span>
+    <span class="focus-tag">Wireless Sensing & Imaging</span>
+    <span class="focus-tag">Healthcare Tech</span>
+    <span class="focus-tag">Embedded Systems</span>
+  </div>
+</div>
 
-- **Arts North Carolina – Data Analyst & Policy Advocate**  
-  *Durham, NC · Jan–May 2025*
-  - Collaborated with Arts NC leadership and the NC Department of Public Instruction to advocate for the arts education Bill H418
-  - Harmonized four state and federal education datasets under regulatory and privacy constraints (e.g., FERPA)
-  - Applied machine learning techniques to identify academic performance disparities linked to arts education access
-  - Authored a legislative brief presented to **150+ legislators** during Arts Day NC  
-  - *Skills:* Python, Pandas, Scikit-Learn, SQL, Data Analysis
+---
 
-- **Systems Modeling of Gene-Circuit Biosensors – Gene Circuits Project**  
-  *Durham, NC · Aug–Dec 2025*
-  - Developed ODE-based biosensor models in Python to infer toxin concentrations from bioluminescent whole-cell data
-  - Applied nonlinear optimization and bootstrapping to quantify sensor sensitivity, detection limits, and dynamic range
-  - Modeled gene-circuit dynamics bridging synthetic biology and computational biosensing  
-  - *Skills:* Python, SciPy, ODE Modeling, Numerical Optimization, Data Visualization
+<div class="resources-section">
+  <h2>Resources</h2>
+  <div class="resources-grid">
+    <a href="/projects/" class="resource-card">
+      <div class="resource-icon projects">📁</div>
+      <h3>Projects</h3>
+      <p>View my portfolio</p>
+    </a>
+    <a href="https://www.linkedin.com/in/phong-h-le/" target="_blank" class="resource-card">
+      <div class="resource-icon linkedin">in</div>
+      <h3>LinkedIn</h3>
+      <p>Connect with me</p>
+    </a>
+    <a href="https://medium.com/@phongle" target="_blank" class="resource-card">
+      <div class="resource-icon blog">✍️</div>
+      <h3>Blog</h3>
+      <p>Read my articles</p>
+    </a>
+    <a href="/assets/Resume-SP26-v2.1c.pdf" download class="resource-card">
+      <div class="resource-icon resume">📄</div>
+      <h3>Resume</h3>
+      <p>Download PDF</p>
+    </a>
+    <a href="mailto:phl6@duke.edu" class="resource-card">
+      <div class="resource-icon contact">✉️</div>
+      <h3>Contact</h3>
+      <p>phl6@duke.edu</p>
+    </a>
+  </div>
+</div>
 
-- **Electromyography (EMG) Circuit – Bioinstrumentation Project**  
-  *Durham, NC · Aug–Dec 2024*
-  - Designed an analog EMG front-end using instrumentation amplifiers and bandpass filtering for muscle signal acquisition
-  - Optimized gain staging and noise rejection to isolate bicep and tricep activations
-  - Validated signal fidelity in low-noise environments for rehabilitation and prosthetic applications  
-  - *Skills:* Analog Electronics, Signal Processing, MATLAB, Python, Oscilloscopes
+---
 
-- **Analog Hearing Aid for Low-Resource Settings – Bioinstrumentation Project**  
-  *Durham, NC · Aug–Dec 2023*
-  - Designed and built a <$30 analog hearing aid achieving <2% harmonic distortion and up to 55× gain
-  - Engineered dual-passband filters optimized for speech frequencies (500–3000 Hz)
-  - Analyzed signal fidelity using MATLAB, Python, and oscilloscope measurements
-  - Validated performance with user trials achieving a **4.4/5 speech intelligibility score** (ANSI-compliant)  
-  - *Skills:* Analog Circuit Design, Signal Processing, MATLAB, Python, KiCad
-
-- **Automated Computational Antibiotics Modeling Lab – Research Project with Dr. Michael Lynch**  
-  *Durham, NC · Jan–May 2023*
-  - Built an automated in silico screening pipeline for antibiotic analogues using molecular dynamics simulations
-  - Developed a Python-based workflow integrated with ChimeraX, increasing throughput by ~**100×**
-  - Applied AlphaFold and RDKit for large-scale structure-based and cheminformatics analysis  
-  - *Skills:* Python, Molecular Dynamics, AlphaFold, RDKit, Automation
-
-## Leadership and Activities
-- **MEDesign – Co-President**  
-  *Durham, NC · Jan 2023–May 2025*
-  - Led a 30+ member organization focused on medical device and digital health innovation
-  - Coordinated project planning, mentorship, and organizational operations
-  - Directed development of an app-linked wearable breathalyzer (BLE hardware, Flutter app, data transmission)
-  - Led a 5-member team to a functional MVP in **4 months**  
-  - *Skills:* Leadership, Project Management, BLE, Flutter, Hardware–Software Integration
-
-## Skills
-
-| Category | Skills |
-|----------|--------|
-| Machine Learning | Python, PyTorch, Scikit-Learn, RDKit, Pandas, TensorFlow, Data Processing, Feature Engineering |
-| Research | Image & Signal Processing, Data Visualization, ODE Modeling, Numerical Simulation, AlphaFold |
-| Embedded & Hardware | PCB Milling, Soldering, Oscilloscopes, BLE (Bluetooth), Arduino, KiCad, 3D Printing |
-| Software & Tools | Jupyter, GitHub, SQL, Firebase, Flutter, Fusion 360, C/C++, MATLAB |
-
-
-## Contact
-Do not hesitate to reach out.
-- Email: phl6@duke.edu  
-- Phone: +1 843-957-2233  
-- [LinkedIn](https://www.linkedin.com/in/phong-h-le/)  
-- [GitHub (under construction as of 1/18/26)](YO FILL THIS IN LATER)    
-
-Portfolio hosted on GitHub Pages (as of January 2026).
+<div class="skills-section">
+  <h2>Skills & Expertise</h2>
+  <div class="skills-grid">
+    <div class="skills-column">
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">Machine Learning & AI</span>
+          <span class="skill-level">Advanced</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-fill ml" style="width: 85%;"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">Python & Data Science</span>
+          <span class="skill-level">Advanced</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-fill python" style="width: 90%;"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">Signal & Image Processing</span>
+          <span class="skill-level">Advanced</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-fill signal" style="width: 80%;"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">Research & Technical Writing</span>
+          <span class="skill-level">Advanced</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-fill research" style="width: 85%;"></div>
+        </div>
+      </div>
+    </div>
+    <div class="skills-column">
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">Embedded Systems & IoT</span>
+          <span class="skill-level">Intermediate</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-fill embedded" style="width: 70%;"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">Hardware & PCB Design</span>
+          <span class="skill-level">Intermediate</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-fill hardware" style="width: 65%;"></div>
+        </div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header">
+          <span class="skill-name">Software Development</span>
+          <span class="skill-level">Intermediate</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-fill software" style="width: 70%;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
