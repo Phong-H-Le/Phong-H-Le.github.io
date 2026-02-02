@@ -64,5 +64,5 @@ You will find detailed documentation of my engineering/research work, including 
 ---
 
 <p style="text-align: center; margin-top: 3rem; color: #6a737d;">
-  More projects coming soon. Check back for updates on EMG circuits, biosensor modeling, and more.
+  More projects coming soon. Check back!
 </p>
