@@ -20,7 +20,7 @@ permalink: /projects/bac-on-track/
 
 <h3>Overview</h3>
 
-Developed an arm-wearable breathalyzer circuit that connects via Bluetooth to iOS and Android apps to monitor and display blood alcohol content (BAC) levels in real-time.
+Breathalyzer with Bluetooth connectivity to iOS/Android apps for real-time BAC monitoring.
 
 <div style="height: 1rem;"></div>
 
@@ -31,6 +31,12 @@ Developed an arm-wearable breathalyzer circuit that connects via Bluetooth to iO
     <figure class="media-item">
       <img src="/assets/projects/bac-on-track/thumbnail.png" alt="App Mockup" onerror="this.parentElement.style.display='none'">
       <figcaption>Mobile App Interface</figcaption>
+    </figure>
+  </div>
+    <div class="media-grid">
+    <figure class="media-item">
+      <img src="/assets/projects/bac-on-track/pcb.png" alt="App Mockup" onerror="this.parentElement.style.display='none'">
+      <figcaption>PCB Design for Bluetooth Circuit</figcaption>
     </figure>
   </div>
 

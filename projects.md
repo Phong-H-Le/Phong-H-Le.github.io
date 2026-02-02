@@ -189,7 +189,7 @@ You will find detailed documentation of my engineering/research work, including 
         <h3 class="project-card-title">Wearable Breathalyzer</h3>
         <p class="project-card-date">Aug - Dec 2023 | Duke University</p>
         <p class="project-card-description">
-          Arm-wearable breathalyzer with Bluetooth connectivity to iOS/Android apps for real-time BAC monitoring.
+          Breathalyzer with Bluetooth connectivity to iOS/Android apps for real-time BAC monitoring.
         </p>
         <div class="project-card-tags">
           <span class="project-tag">Embedded Systems</span>
