@@ -3,15 +3,72 @@ layout: default
 title: Home
 ---
 
+
 <link rel="stylesheet" href="/assets/css/home.css">
 
-<div class="hero-section">
+<!-- Minimal, high-specificity mobile override using an ID -->
+<style>
+  /* Only applies on narrow screens and uses an ID for higher specificity */
+  @media (max-width: 720px) {
+    /* Force a column layout so text is above the image */
+    #hero {
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: stretch !important;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem !important;
+      width: 100% !important;
+      box-sizing: border-box !important;
+    }
+
+    /* Ensure the text uses full width and wraps normally */
+    #hero .hero-content {
+      order: 1 !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      min-width: 0 !important;
+      text-align: left !important;
+      display: block !important;
+      float: none !important;
+    }
+
+    #hero .hero-content p {
+      white-space: normal !important;
+      word-break: break-word !important;
+      hyphens: auto !important;
+      margin-bottom: 0.9rem !important;
+      font-size: 1rem !important;
+      line-height: 1.6 !important;
+    }
+
+    /* Put the image below the text and center it */
+    #hero .hero-image-container {
+      order: 2 !important;
+      width: 100% !important;
+      display: flex !important;
+      justify-content: center !important;
+      margin-top: 0.6rem !important;
+      float: none !important;
+    }
+
+    #hero .hero-image {
+      max-width: 260px !important;
+      width: 70% !important;
+      height: auto !important;
+      display: block !important;
+      margin: 0 auto !important;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.12) !important;
+    }
+  }
+</style>
+
+<div id="hero" class="hero-section">
   <div class="hero-content">
     <h2 class="section-title">About Me</h2>
     <p>
       Hey! 👋 I'm <strong>Phong Le</strong>. 
-      </p>
-      <p>
+    </p>
+    <p>
       I'm a first generation college student at Duke University. Son of immigrant parents and raised in Myrtle Beach, SC.
     </p>
     <p>
