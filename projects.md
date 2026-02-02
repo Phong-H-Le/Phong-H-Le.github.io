@@ -6,14 +6,14 @@ permalink: /projects/
 
 <link rel="stylesheet" href="/assets/css/projects.css">
 
-Welcome to my project portfolio. Here you'll find detailed documentation of my engineering and research work, including presentations, media, and downloadable resources.
+You will find detailed documentation of my engineering/research work, including presentations, media, and downloadable resources.
 
 ---
 
 <div class="project-gallery">
 
   <div class="project-card">
-    <img src="/assets/projects/scalable-ml/thumbnail.png" alt="Scalable ML Project" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/0366d6/ffffff?text=Scalable+ML+Project'">
+    <img src="/assets/projects/scalable-ml/presentation-thumbnail-scalable-ml.png" alt="Scalable ML Project" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/0366d6/ffffff?text=Scalable+ML+Project'">
     <div class="project-card-content">
       <h3 class="project-card-title">Scalable ML for Antibiotic Virtual Screening</h3>
       <p class="project-card-date">Aug - Dec 2025 | Duke University</p>
