@@ -9,9 +9,6 @@ permalink: /projects/wifi-rf/
 <a href="/projects/" class="back-link">← Back to Projects</a>
 
 <div class="project-detail">
-
-<p><strong>Jan 2026 - Present</strong> · <em>Work in Progress</em></p>
-
 <div class="tech-stack">
   <span class="tech-pill">ESP32</span>
   <span class="tech-pill">IoT</span>
@@ -23,7 +20,5 @@ permalink: /projects/wifi-rf/
 <h3>Overview</h3>
 
 Developing wireless sensing capabilities using ESP32 IoT microcontrollers for WiFi-based RF imaging applications.
-
-</div>
 
 </div>

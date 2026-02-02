@@ -3,18 +3,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Scalable ML for Antibiotic Virtual Screening | Portfolio</title>
+<title>Scalable ML for Antibiotic Screening | Portfolio</title>
 <meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Scalable ML for Antibiotic Virtual Screening" />
+<meta property="og:title" content="Scalable ML for Antibiotic Screening" />
 <meta property="og:locale" content="en_US" />
 <link rel="canonical" href="http://localhost:4000/projects/scalable-ml/" />
 <meta property="og:url" content="http://localhost:4000/projects/scalable-ml/" />
 <meta property="og:site_name" content="Portfolio" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Scalable ML for Antibiotic Virtual Screening" />
+<meta property="twitter:title" content="Scalable ML for Antibiotic Screening" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","headline":"Scalable ML for Antibiotic Virtual Screening","url":"http://localhost:4000/projects/scalable-ml/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","headline":"Scalable ML for Antibiotic Screening","url":"http://localhost:4000/projects/scalable-ml/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Portfolio" /></head>
 <body><header class="site-header" role="banner">
@@ -37,7 +37,7 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Scalable ML for Antibiotic Virtual Screening</h1>
+    <h1 class="post-title">Scalable ML for Antibiotic Screening</h1>
   </header>
 
   <div class="post-content">
@@ -59,7 +59,7 @@
 <h3>Overview</h3>
 
 This project addressed the critical challenge of antibiotic resistance by developing and benchmarking scalable machine learning approaches for virtual screening of antibiotic candidates. Working with computational drug discovery methods, I evaluated state-of-the-art graph neural networks against traditional ML baselines to optimize large-scale screening pipelines.
-
+<div style="height: 1rem;"></div>
 <div class="project-section">
 
 <h3>Presentation</h3>
@@ -68,41 +68,34 @@ This project addressed the critical challenge of antibiotic resistance by develo
   <iframe src="https://docs.google.com/presentation/d/13CNicf0F2OOfqr5G2zVu5gawpYUTqZsEXWZDdDTiAVA/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
 
-<p style="text-align: center; margin-top: 0.5rem;">
-  <a href="https://docs.google.com/presentation/d/13CNicf0F2OOfqr5G2zVu5gawpYUTqZsEXWZDdDTiAVA/edit?usp=sharing" target="_blank" class="project-link project-link-secondary" style="display: inline-flex;">
-    Open in Google Slides
-  </a>
-</p>
-
-</div>
-
 <div class="project-section">
 
-    <h3>Methods &amp; Technical Details</h3>
+      <h3>Methods &amp; Technical Details</h3>
 
-    <p><strong>Data Processing:</strong></p>
-    <ul>
-      <li>Utilized RDKit for molecular fingerprint generation and chemical descriptor calculation</li>
-      <li>Processed SMILES representations for 2,560 antibiotic candidate molecules</li>
-      <li>Applied scaffold-based train/test splitting to ensure chemically diverse evaluation sets</li>
-    </ul>
+      <p><strong>Data Processing:</strong></p>
+      <ul>
+        <li>Utilized RDKit for molecular fingerprint generation and chemical descriptor calculation</li>
+        <li>Processed SMILES representations for 2,560 antibiotic candidate molecules</li>
+        <li>Applied scaffold-based train/test splitting to ensure chemically diverse evaluation sets</li>
+      </ul>
 
-    <p><strong>Model Architectures:</strong></p>
-    <ul>
-      <li><strong>GNEprop:</strong> Graph neural network with message passing for molecular property prediction</li>
-      <li><strong>Chemprop:</strong> Directed message passing neural network (D-MPNN)</li>
-      <li><strong>XGBoost:</strong> Gradient boosted trees with Morgan fingerprints as baseline</li>
-    </ul>
+      <p><strong>Model Architectures:</strong></p>
+      <ul>
+        <li><strong>GNEprop:</strong> Graph neural network with message passing for molecular property prediction</li>
+        <li><strong>Chemprop:</strong> Directed message passing neural network (D-MPNN)</li>
+        <li><strong>XGBoost:</strong> Gradient boosted trees with Morgan fingerprints as baseline</li>
+      </ul>
 
-    <p><strong>Validation Strategy:</strong></p>
-    <ul>
-      <li>K-fold cross-validation with scaffold-aware splits</li>
-      <li>Adversarial y-shuffling to detect potential data leakage</li>
-      <li>ROC-AUC, precision-recall, and calibration metrics</li>
-    </ul>
+      <p><strong>Validation Strategy:</strong></p>
+      <ul>
+        <li>K-fold cross-validation with scaffold-aware splits</li>
+        <li>Adversarial y-shuffling to detect potential data leakage</li>
+        <li>ROC-AUC, precision-recall, and calibration metrics</li>
+      </ul>
 
-  </div>
+    </div>
 
+</div>
 </div>
 
   </div>

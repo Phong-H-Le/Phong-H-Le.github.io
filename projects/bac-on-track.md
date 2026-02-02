@@ -5,12 +5,9 @@ permalink: /projects/bac-on-track/
 ---
 
 <link rel="stylesheet" href="/assets/css/projects.css">
-
 <a href="/projects/" class="back-link">← Back to Projects</a>
 
 <div class="project-detail">
-
-<p><strong>Aug - Dec 2023</strong> · Duke University</p>
 
 <div class="tech-stack">
   <span class="tech-pill">Embedded Systems</span>
@@ -25,31 +22,38 @@ permalink: /projects/bac-on-track/
 
 Developed an arm-wearable breathalyzer circuit that connects via Bluetooth to iOS and Android apps to monitor and display blood alcohol content (BAC) levels in real-time.
 
-<div class="project-section">
-
-<h3>Media</h3>
-
-<div class="media-grid">
-  <figure class="media-item">
-    <img src="/assets/projects/bac-on-track/app-mockup.png" alt="App Mockup" onerror="this.parentElement.style.display='none'">
-    <figcaption>Mobile App Interface</figcaption>
-  </figure>
-  <figure class="media-item">
-    <img src="/assets/projects/bac-on-track/device.png" alt="Wearable Device" onerror="this.parentElement.style.display='none'">
-    <figcaption>Wearable Device</figcaption>
-  </figure>
-</div>
-
-<p><em>Add images to <code>/assets/projects/bac-on-track/</code></em></p>
-
-</div>
+<div style="height: 1rem;"></div>
 
 <div class="project-section">
+  <h3>Media</h3>
 
-<h3>Resources</h3>
+  <div class="media-grid">
+    <figure class="media-item">
+      <img src="/assets/projects/bac-on-track/thumbnail.png" alt="App Mockup" onerror="this.parentElement.style.display='none'">
+      <figcaption>Mobile App Interface</figcaption>
+    </figure>
+  </div>
 
-<p><em>Firmware developed using Zephyr RTOS - GitHub link can be added here</em></p>
+<div class="project-section">
+  <h3>Resources</h3>
 
+  <div class="project-card-links" style="border-top:none; padding-top:0;">
+    <a
+      class="project-link project-link-primary"
+      href="https://github.com/Phong-H-Le/DrinkSafeFlutter"
+      target="_blank"
+      rel="noopener noreferrer">
+      GitHub: App Software (Flutter)
+    </a>
+
+    <a
+      class="project-link project-link-primary"
+      href="https://github.com/dcunhrya/BAC-on-Track"
+      target="_blank"
+      rel="noopener noreferrer">
+      GitHub: Firmware (Zephyr RTOS)
+    </a>
+  </div>
 </div>
 
 </div>

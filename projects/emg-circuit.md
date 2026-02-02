@@ -10,8 +10,6 @@ permalink: /projects/emg-circuit/
 
 <div class="project-detail">
 
-<p><strong>Jan 2024 - May 2024</strong> · Duke University</p>
-
 <div class="tech-stack">
   <span class="tech-pill">Analog Electronics</span>
   <span class="tech-pill">Instrumentation Amplifiers</span>
@@ -22,15 +20,12 @@ permalink: /projects/emg-circuit/
 <h3>Overview</h3>
 
 Designed and built an analog EMG front-end circuit for acquiring and processing muscle electrical signals, enabling differentiation between bicep and tricep activations.
-
+<div style="height: 1rem;"></div>
 <div class="project-section" markdown="1">
-
 <h3>Key Accomplishments</h3>
 
 - Designed an analog EMG front-end (instrumentation amplifiers, bandpass filtering) for muscle signal acquisition
 - Optimized gain staging and noise rejection to isolate bicep and tricep activations for downstream signal processing
-
-</div>
 
 <div class="project-section">
 
@@ -38,7 +33,7 @@ Designed and built an analog EMG front-end circuit for acquiring and processing 
 
 <div class="media-grid">
   <figure class="media-item">
-    <img src="/assets/projects/emg-circuit/circuit-diagram.png" alt="EMG Circuit Diagram" onerror="this.parentElement.style.display='none'">
+    <img src="/assets/projects/emg-circuit/thumbnail.png" alt="EMG Circuit Diagram" onerror="this.parentElement.style.display='none'">
     <figcaption>Circuit Schematic</figcaption>
   </figure>
   <figure class="media-item">
@@ -46,8 +41,6 @@ Designed and built an analog EMG front-end circuit for acquiring and processing 
     <figcaption>Built Circuit</figcaption>
   </figure>
 </div>
-
-<p><em>Add images to <code>/assets/projects/emg-circuit/</code></em></p>
 
 </div>
 
