@@ -10,15 +10,6 @@ permalink: /projects/scalable-ml/
 
 <div class="project-detail">
 
-<div class="project-detail-header">
-  <h1 class="project-detail-title">Scalable Machine Learning for Antibiotic Virtual Screening</h1>
-  <p class="project-detail-meta">
-    <strong>Duration:</strong> August - December 2025<br>
-    <strong>Location:</strong> Duke University, Durham, NC<br>
-    <strong>Course:</strong> Machine Learning & Imaging (BME 548L)
-  </p>
-</div>
-
 <div class="tech-stack">
   <span class="tech-pill">Python</span>
   <span class="tech-pill">PyTorch</span>
