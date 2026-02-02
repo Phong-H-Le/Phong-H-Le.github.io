@@ -4,7 +4,7 @@
 .section-title {
   font-size: 1.75rem;
   color: #24292e;
-  margin-bottom: 0.5rem;
+  margin: 0 0 1rem 0;
   font-weight: 600;
 }
 
@@ -13,7 +13,7 @@
   display: flex;
   align-items: flex-start;
   gap: 3rem;
-  margin: 1rem 0 1.5rem 0;
+  margin: 1rem 0 2rem 0;
 }
 
 .hero-content {
@@ -39,33 +39,20 @@
   object-fit: cover;
 }
 
-/* Education Section */
-.education-section {
-  margin: 1rem 0 2rem 0;
-}
-
-.education-item {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  font-size: 1rem;
-  color: #555;
-}
-
-.education-bullet {
-  width: 8px;
-  height: 8px;
-  background: #0366d6;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
-
 /* Focus/Future Section */
 .focus-section {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   border-radius: 16px;
   padding: 2rem;
   margin: 2rem 0;
+}
+
+.education-line {
+  font-size: 1rem;
+  color: #555;
+  margin: 0 0 1.5rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #dee2e6;
 }
 
 .focus-section h2 {
@@ -226,54 +213,90 @@
 .skill-fill.hardware { background: linear-gradient(90deg, #a8edea, #fed6e3); }
 .skill-fill.software { background: linear-gradient(90deg, #d299c2, #fef9d7); }
 
-/* Slideshow Section */
-.slideshow-section {
+/* Gallery Section - Photo Deck Effect */
+.gallery-section {
   margin: 2rem 0 3rem 0;
 }
 
-.slideshow-section h2 {
+.gallery-section h2 {
   font-size: 1.5rem;
   color: #24292e;
   margin-bottom: 1.5rem;
 }
 
-.slideshow-container {
-  width: 100%;
+.photo-deck {
+  position: relative;
+  height: 400px;
+  perspective: 1000px;
   overflow: hidden;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-.slideshow-track {
+.deck-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
   display: flex;
-  animation: slideshow 30s linear infinite;
+  align-items: center;
+  justify-content: center;
 }
 
-.slide {
-  flex-shrink: 0;
-  width: 100%;
-  max-width: 600px;
-  margin-right: 1rem;
-}
-
-.slide img {
-  width: 100%;
-  height: 350px;
+.deck-card {
+  position: absolute;
+  width: 350px;
+  height: 280px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  animation: deckCycle 15s infinite;
+  opacity: 0;
 }
 
-@keyframes slideshow {
+.deck-card:nth-child(1) { animation-delay: 0s; }
+.deck-card:nth-child(2) { animation-delay: 3s; }
+.deck-card:nth-child(3) { animation-delay: 6s; }
+.deck-card:nth-child(4) { animation-delay: 9s; }
+.deck-card:nth-child(5) { animation-delay: 12s; }
+
+@keyframes deckCycle {
   0% {
-    transform: translateX(0);
+    opacity: 0;
+    transform: translateX(100px) translateZ(-200px) scale(0.8);
+    z-index: 1;
+  }
+  5% {
+    opacity: 1;
+    transform: translateX(50px) translateZ(-100px) scale(0.9);
+    z-index: 2;
+  }
+  10% {
+    opacity: 1;
+    transform: translateX(0) translateZ(0) scale(1);
+    z-index: 3;
+  }
+  15% {
+    opacity: 1;
+    transform: translateX(0) translateZ(0) scale(1);
+    z-index: 3;
+  }
+  20% {
+    opacity: 1;
+    transform: translateX(-50px) translateZ(-100px) scale(0.9);
+    z-index: 2;
+  }
+  25% {
+    opacity: 0;
+    transform: translateX(-150px) translateZ(-200px) scale(0.8);
+    z-index: 1;
   }
   100% {
-    transform: translateX(calc(-600px * 5 - 5rem));
+    opacity: 0;
+    transform: translateX(-150px) translateZ(-200px) scale(0.8);
+    z-index: 1;
   }
 }
 
-/* Pause animation on hover */
-.slideshow-container:hover .slideshow-track {
+/* Pause on hover */
+.photo-deck:hover .deck-card {
   animation-play-state: paused;
 }
 
@@ -284,33 +307,25 @@
     text-align: center;
   }
 
+  .hero-content .section-title {
+    text-align: center;
+  }
+
   .hero-image {
     width: 200px;
     margin: 0 auto;
-  }
-
-  .education-section {
-    text-align: left;
   }
 
   .resources-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .slide {
-    max-width: 300px;
+  .photo-deck {
+    height: 300px;
   }
 
-  .slide img {
-    height: 200px;
-  }
-
-  @keyframes slideshow {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(calc(-300px * 5 - 5rem));
-    }
+  .deck-card {
+    width: 280px;
+    height: 220px;
   }
 }

@@ -1,13 +1,13 @@
 ---
 layout: default
+title: Home
 ---
 
 <link rel="stylesheet" href="/assets/css/home.css">
 
-<h2 class="section-title">About Me</h2>
-
 <div class="hero-section">
   <div class="hero-content">
+    <h2 class="section-title">About Me</h2>
     <p>
       I'm a dual-degree undergraduate at <strong>Duke University</strong>, pursuing a B.S.E. in Biomedical Engineering and a B.A. in Computer Science. My work focuses on machine learning, diagnostic imaging, bioinstrumentation, and health technology.
     </p>
@@ -20,14 +20,8 @@ layout: default
   </div>
 </div>
 
-<div class="education-section">
-  <div class="education-item">
-    <span class="education-bullet"></span>
-    <span>Duke University - B.S.E. Biomedical Engineering & B.A. Computer Science (May 2026)</span>
-  </div>
-</div>
-
 <div class="focus-section">
+  <p class="education-line">Duke University - B.S.E. Biomedical Engineering & B.A. Computer Science (May 2026)</p>
   <h2>Current Focus & Future Goals</h2>
   <p>
     I'm actively seeking <strong>full-time opportunities and internships</strong> in medical device development, healthcare technology, and applied machine learning. My current work spans wireless sensing/imaging systems and ML-driven diagnostics.
@@ -151,18 +145,15 @@ layout: default
   </div>
 </div>
 
-<div class="slideshow-section">
+<div class="gallery-section">
   <h2>Gallery</h2>
-  <div class="slideshow-container">
-    <div class="slideshow-track">
-      <div class="slide"><img src="/assets/images/slideshow/slide1.jpg" alt="Slide 1"></div>
-      <div class="slide"><img src="/assets/images/slideshow/slide2.jpg" alt="Slide 2"></div>
-      <div class="slide"><img src="/assets/images/slideshow/slide3.jpg" alt="Slide 3"></div>
-      <div class="slide"><img src="/assets/images/slideshow/slide4.jpg" alt="Slide 4"></div>
-      <div class="slide"><img src="/assets/images/slideshow/slide5.jpg" alt="Slide 5"></div>
-      <!-- Duplicate first slides for seamless loop -->
-      <div class="slide"><img src="/assets/images/slideshow/slide1.jpg" alt="Slide 1"></div>
-      <div class="slide"><img src="/assets/images/slideshow/slide2.jpg" alt="Slide 2"></div>
+  <div class="photo-deck">
+    <div class="deck-container">
+      <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600" alt="Technology" class="deck-card">
+      <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600" alt="Research" class="deck-card">
+      <img src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=600" alt="Science" class="deck-card">
+      <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600" alt="Medical" class="deck-card">
+      <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600" alt="Engineering" class="deck-card">
     </div>
   </div>
 </div>
