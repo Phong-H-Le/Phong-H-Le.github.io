@@ -64,5 +64,5 @@ You will find detailed documentation of my engineering/research work, including 
 ---
 
 <p style="text-align: center; margin-top: 3rem; color: #6a737d;">
-  More projects coming soon. Check back!
+  More projects coming soon. Check back for my wireless sensing project! 
 </p>

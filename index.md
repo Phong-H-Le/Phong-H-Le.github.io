@@ -27,7 +27,6 @@ title: Home
       <a href="https://linktr.ee/ryoku_wave" target="_blank" rel="noopener noreferrer">
         Link
       </a>
-      😊
     </p>
   </div>
 </div>
