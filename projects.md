@@ -12,6 +12,31 @@ You will find detailed documentation of my engineering/research work, including 
 
 <div class="project-gallery">
 
+  <!-- WiFi-RF Imaging Project -->
+  <div class="project-card">
+    <a href="/projects/wifi-rf/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/projects/wifi-rf/thumbnail.png" alt="WiFi-RF Imaging" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/6c5ce7/ffffff?text=WiFi-RF+Imaging'">
+      <div class="project-card-content">
+        <h3 class="project-card-title">WiFi-RF Imaging Project</h3>
+        <p class="project-card-date">Jan 2026 - Present | Work in Progress</p>
+        <p class="project-card-description">
+          Developing wireless sensing capabilities from ESP32 IoT microcontrollers for RF-based imaging applications.
+        </p>
+        <div class="project-card-tags">
+          <span class="project-tag">ESP32</span>
+          <span class="project-tag">IoT</span>
+          <span class="project-tag">Wireless Sensing</span>
+        </div>
+      </div>
+    </a>
+    <div class="project-card-content" style="padding-top: 0;">
+      <div class="project-card-links">
+        <a href="/projects/wifi-rf/" class="project-link project-link-primary">View Details</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scalable ML Project -->
   <div class="project-card">
     <a href="/projects/scalable-ml/" style="text-decoration: none; color: inherit;">
       <img src="/assets/projects/scalable-ml/presentation-thumbnail-scalable-ml.png" alt="Scalable ML Project" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/0366d6/ffffff?text=Scalable+ML+Project'">
@@ -36,33 +61,196 @@ You will find detailed documentation of my engineering/research work, including 
     </div>
   </div>
 
-  <!-- TEMPLATE: Copy this card for new projects -->
-  <!--
+  <!-- Systems Modeling of Gene-Circuit Biosensors -->
   <div class="project-card">
-    <a href="/projects/your-project-slug/" style="text-decoration: none; color: inherit;">
-      <img src="/assets/projects/your-project/thumbnail.png" alt="Project Name" class="project-card-image">
+    <a href="/projects/biosensors/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/projects/biosensors/thumbnail.png" alt="Biosensors Project" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/00b894/ffffff?text=Biosensors'">
       <div class="project-card-content">
-        <h3 class="project-card-title">Project Title</h3>
-        <p class="project-card-date">Date | Location</p>
-        <p class="project-card-description">Brief description of the project.</p>
+        <h3 class="project-card-title">Systems Modeling of Gene-Circuit Biosensors</h3>
+        <p class="project-card-date">Aug - Dec 2025 | Duke University</p>
+        <p class="project-card-description">
+          Developed ODE-based biosensor models in Python to infer toxin concentration from bioluminescent data with quantified uncertainty.
+        </p>
         <div class="project-card-tags">
-          <span class="project-tag">Tag1</span>
-          <span class="project-tag">Tag2</span>
+          <span class="project-tag">Python</span>
+          <span class="project-tag">ODE Modeling</span>
+          <span class="project-tag">Biosensors</span>
         </div>
       </div>
     </a>
     <div class="project-card-content" style="padding-top: 0;">
       <div class="project-card-links">
-        <a href="/projects/your-project-slug/" class="project-link project-link-primary">View Details</a>
+        <a href="/projects/biosensors/" class="project-link project-link-primary">View Details</a>
       </div>
     </div>
   </div>
-  -->
+
+  <!-- Data Analytics - Arts NC -->
+  <div class="project-card">
+    <a href="/projects/arts-nc/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/projects/arts-nc/thumbnail.png" alt="Arts NC Project" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/e17055/ffffff?text=Arts+NC+Analytics'">
+      <div class="project-card-content">
+        <h3 class="project-card-title">Data Analytics - Arts North Carolina</h3>
+        <p class="project-card-date">Jan - Apr 2025 | Arts North Carolina</p>
+        <p class="project-card-description">
+          Produced legislative research supporting NC Bill H418, analyzing arts education impact across 4 state/federal datasets for 150+ legislators.
+        </p>
+        <div class="project-card-tags">
+          <span class="project-tag">Data Analytics</span>
+          <span class="project-tag">Machine Learning</span>
+          <span class="project-tag">Policy Research</span>
+        </div>
+      </div>
+    </a>
+    <div class="project-card-content" style="padding-top: 0;">
+      <div class="project-card-links">
+        <a href="/projects/arts-nc/" class="project-link project-link-primary">View Details</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- EMG Circuit -->
+  <div class="project-card">
+    <a href="/projects/emg-circuit/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/projects/emg-circuit/thumbnail.png" alt="EMG Circuit" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/fdcb6e/000000?text=EMG+Circuit'">
+      <div class="project-card-content">
+        <h3 class="project-card-title">Electromyography (EMG) Circuit</h3>
+        <p class="project-card-date">Jan - May 2024 | Duke University</p>
+        <p class="project-card-description">
+          Designed an analog EMG front-end with instrumentation amplifiers and bandpass filtering for muscle signal acquisition.
+        </p>
+        <div class="project-card-tags">
+          <span class="project-tag">Analog Electronics</span>
+          <span class="project-tag">Signal Processing</span>
+          <span class="project-tag">Biomedical</span>
+        </div>
+      </div>
+    </a>
+    <div class="project-card-content" style="padding-top: 0;">
+      <div class="project-card-links">
+        <a href="/projects/emg-circuit/" class="project-link project-link-primary">View Details</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PPG -->
+  <div class="project-card">
+    <a href="/projects/ppg/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/projects/ppg/thumbnail.png" alt="PPG Project" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/e84393/ffffff?text=PPG+Circuit'">
+      <div class="project-card-content">
+        <h3 class="project-card-title">Photoplethysmography (PPG)</h3>
+        <p class="project-card-date">Aug - Dec 2023 | Duke University</p>
+        <p class="project-card-description">
+          Built a breadboard implementation of a clinical PPG device for optical heart rate and blood volume measurement.
+        </p>
+        <div class="project-card-tags">
+          <span class="project-tag">Analog Electronics</span>
+          <span class="project-tag">Optical Sensing</span>
+          <span class="project-tag">Biomedical</span>
+        </div>
+      </div>
+    </a>
+    <div class="project-card-content" style="padding-top: 0;">
+      <div class="project-card-links">
+        <a href="/projects/ppg/" class="project-link project-link-primary">View Details</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Analog Hearing Aid -->
+  <div class="project-card">
+    <a href="/projects/hearing-aid/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/projects/hearing-aid/thumbnail.png" alt="Hearing Aid Project" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/00cec9/ffffff?text=Hearing+Aid'">
+      <div class="project-card-content">
+        <h3 class="project-card-title">Analog Hearing Aid for Low-Resource Settings</h3>
+        <p class="project-card-date">Aug - Dec 2023 | Duke University</p>
+        <p class="project-card-description">
+          Designed a low-cost hearing aid prototype (<$30), achieving <2% harmonic distortion, 55× gain, and 4.4/5 speech intelligibility.
+        </p>
+        <div class="project-card-tags">
+          <span class="project-tag">Analog Electronics</span>
+          <span class="project-tag">Filter Design</span>
+          <span class="project-tag">MATLAB</span>
+        </div>
+      </div>
+    </a>
+    <div class="project-card-content" style="padding-top: 0;">
+      <div class="project-card-links">
+        <a href="/projects/hearing-aid/" class="project-link project-link-primary">View Details</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- BAC-on-Track -->
+  <div class="project-card">
+    <a href="/projects/bac-on-track/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/projects/bac-on-track/thumbnail.png" alt="BAC-on-Track" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/a29bfe/ffffff?text=BAC-on-Track'">
+      <div class="project-card-content">
+        <h3 class="project-card-title">BAC-on-Track: Wearable Breathalyzer</h3>
+        <p class="project-card-date">Aug - Dec 2023 | Duke University</p>
+        <p class="project-card-description">
+          Arm-wearable breathalyzer with Bluetooth connectivity to iOS/Android apps for real-time BAC monitoring.
+        </p>
+        <div class="project-card-tags">
+          <span class="project-tag">Embedded Systems</span>
+          <span class="project-tag">Bluetooth</span>
+          <span class="project-tag">Zephyr RTOS</span>
+        </div>
+      </div>
+    </a>
+    <div class="project-card-content" style="padding-top: 0;">
+      <div class="project-card-links">
+        <a href="/projects/bac-on-track/" class="project-link project-link-primary">View Details</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lynch Lab -->
+  <div class="project-card">
+    <a href="/projects/lynch-lab/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/projects/lynch-lab/thumbnail.png" alt="Lynch Lab Project" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/74b9ff/ffffff?text=Lynch+Lab'">
+      <div class="project-card-content">
+        <h3 class="project-card-title">Michael Lynch Lab - Independent Study</h3>
+        <p class="project-card-date">Jan - Aug 2023 | Duke University</p>
+        <p class="project-card-description">
+          Built an automated in silico screening pipeline for antibiotic analogues, increasing molecular simulation throughput by ~100×.
+        </p>
+        <div class="project-card-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">AlphaFold</span>
+          <span class="project-tag">Molecular Dynamics</span>
+        </div>
+      </div>
+    </a>
+    <div class="project-card-content" style="padding-top: 0;">
+      <div class="project-card-links">
+        <a href="/projects/lynch-lab/" class="project-link project-link-primary">View Details</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ALS Assistive Feeding -->
+  <div class="project-card">
+    <a href="/projects/als-feeding/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/projects/als-feeding/thumbnail.png" alt="ALS Feeding Device" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/fab1a0/ffffff?text=ALS+Assistive'">
+      <div class="project-card-content">
+        <h3 class="project-card-title">ALS Assistive Gastrostomy Tube Feeding</h3>
+        <p class="project-card-date">Aug - Dec 2021 | Duke University</p>
+        <p class="project-card-description">
+          Designed a motorized pulley system with Arduino controls enabling ALS patients to independently manage tube feeding.
+        </p>
+        <div class="project-card-tags">
+          <span class="project-tag">Arduino</span>
+          <span class="project-tag">Assistive Tech</span>
+          <span class="project-tag">Prototyping</span>
+        </div>
+      </div>
+    </a>
+    <div class="project-card-content" style="padding-top: 0;">
+      <div class="project-card-links">
+        <a href="/projects/als-feeding/" class="project-link project-link-primary">View Details</a>
+      </div>
+    </div>
+  </div>
 
 </div>
-
----
-
-<p style="text-align: center; margin-top: 3rem; color: #6a737d;">
-  More projects coming soon. Check back for my wireless sensing project! 
-</p>
