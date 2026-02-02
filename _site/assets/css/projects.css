@@ -14,6 +14,35 @@
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Make the clickable area grow to fill space */
+.project-card > a {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Content area inside the link should grow */
+.project-card > a > .project-card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Push tags to bottom of content area */
+.project-card > a > .project-card-content > .project-card-tags {
+  margin-top: auto;
+}
+
+/* Buttons section at bottom - doesn't grow, stays at bottom */
+.project-card > .project-card-content:last-child {
+  margin-top: auto;
 }
 
 .project-card:hover {
@@ -37,6 +66,13 @@
   font-weight: 600;
   margin: 0 0 0.5rem 0;
   color: #24292e;
+}
+
+/* Prevent visited link color changes on cards */
+.project-card a:visited .project-card-title,
+.project-card a:visited .project-card-description,
+.project-card a:visited .project-card-date {
+  color: inherit;
 }
 
 .project-card-date {
@@ -88,34 +124,41 @@
   transition: background-color 0.2s ease;
 }
 
-.project-link-primary {
-  background: #0366d6;
-  color: white;
+.project-link-primary,
+.project-link-primary:visited,
+.project-link-primary:link {
+  background: #0366d6 !important;
+  color: white !important;
 }
 
 .project-link-primary:hover {
-  background: #0256b9;
-  color: white;
+  background: #0256b9 !important;
+  color: white !important;
 }
 
-.project-link-secondary {
-  background: #f6f8fa;
-  color: #24292e;
+.project-link-secondary,
+.project-link-secondary:visited,
+.project-link-secondary:link {
+  background: #f6f8fa !important;
+  color: #24292e !important;
   border: 1px solid #e1e4e8;
 }
 
 .project-link-secondary:hover {
-  background: #e1e4e8;
+  background: #e1e4e8 !important;
+  color: #24292e !important;
 }
 
-.project-link-download {
-  background: #28a745;
-  color: white;
+.project-link-download,
+.project-link-download:visited,
+.project-link-download:link {
+  background: #28a745 !important;
+  color: white !important;
 }
 
 .project-link-download:hover {
-  background: #22863a;
-  color: white;
+  background: #22863a !important;
+  color: white !important;
 }
 
 /* Full Project Detail Page Styles */
@@ -189,12 +232,15 @@
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: #f6f8fa;          /* Match caption background – prevents white edges */
 }
 
-.media-item img {
+.media-item img,
+.media-item video {
   width: 100%;
   height: auto;
   display: block;
+  background: #f6f8fa;          /* Ensures no white flash/edge if image has transparency or doesn't fill */
 }
 
 .media-item figcaption {
@@ -215,6 +261,7 @@
   margin: 1.5rem 0;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: #f6f8fa;          /* Match background for iframes too */
 }
 
 .embed-container iframe {

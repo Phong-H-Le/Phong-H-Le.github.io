@@ -1,114 +1,257 @@
 ---
-layout: home
+layout: default
 title: Home
 ---
-<div style="display: flex; align-items: center; gap: 24px; margin-top: 1.5rem;">
-  <img
-    src="/assets/images/background_headshot.png"
-    alt="Phong Le headshot"
-    style="
-      width: 150px !important;
-      height: 150px !important;
-      border-radius: 9999px;
-      object-fit: cover;
-      display: block;
-      flex: 0 0 150px;
-    "
-  >
-  <div style="max-width: 600px;">
+
+<link rel="stylesheet" href="/assets/css/home.css">
+
+<div class="hero-section">
+  <div class="hero-content">
+    <h2 class="section-title">About Me</h2>
     <p>
-      I'm a dual-degree undergraduate at Duke University. 
-      Pursuing a B.S.E. in Biomedical Engineering & B.A. in Computer Science.<br>
-      My work focuses on machine learning, diagnostic imaging, bioinstrumentation, and health tech.
-      I enjoy breaking down complex systems into clear and explainable blocks.<br>
-      Born in Hue City, Vietnam & raised in Myrtle Beach, SC.
-      In my free time, I enjoy reading classics/theology, going to the gym, and cooking.<br>
-      Read my reviews &amp; other blogging:
-      <a href="https://linktr.ee/ryoku_wave" target="_blank" rel="noopener noreferrer">
-        Link
-      </a>
+      Hey! 👋 I'm <strong>Phong Le</strong>. I'm a first generation college student at Duke University. Son of immigrant parents & raised in Myrtle Beach, SC.
     </p>
+    <p>
+      I enjoy breaking down complex systems into clear, simple blocks. Hobbies include reading classics & theology, going to the gym, and cooking. 
+    </p>
+  </div>
+  <div class="hero-image-container">
+    <img src="/assets/images/background_headshot.png" alt="Phong Le" class="hero-image">
   </div>
 </div>
 
-## Education
-- **Duke University**<br>
-  ***B.S.E. Biomedical Engineering | B.A. Computer Science***<br>
-  *Durham, NC · Anticipated Graduation: May 2026*
-  - Coursework: Machine Learning & Imaging, Diagnostic Imaging, Bioinstrumentation, Signals & Systems, and Algorithms in Data Science. Emphasized hands-on projects in ML for healthcare and biosensor modeling.  
-  - Honors/Awards: Duke QuestBridge Scholar, Florence Family Scholarship Recipient, Post Grata Award Recipient.  
-  - Links: [LinkedIn Profile](https://www.linkedin.com/in/phong-h-le/) · [Resume PDF (Under Construction as of 1/18/26)](assets/Resume-SP26-v2.1c.pdf)
+<div class="focus-section">
+  <h1 class="education-heading">Duke University: Biomedical Engineering & Computer Science</h1>
+  <h2>Current Focus & Future Goals</h2>
+  <p>
+    I'm actively seeking full-time opportunities and internships in medical device development, imaging technology, and applied machine learning. Experience includes applied ML/hardware projects and research in data analysis, policy, & computational modeling. 
+  </p>
+  <p>
+    Looking ahead, I'm passionate about building technologies that can impact <strong>healthcare</strong>, <strong>defense</strong>, and <strong>public systems</strong>. I love leveraging new research to make end-to-end projects.
+  </p>
+</div>
 
-## Experience and Projects
-- **Scalable Machine Learning for Antibiotic Virtual Screening – Computational Drug Discovery Project**  
-  *Durham, NC · Aug–Dec 2025*
-  - Benchmarked GNEprop (Nature Biotechnology, 2025) against Chemprop and XGBoost on 2,560 antibiotic candidates, achieving **ROC-AUC 0.936**
-  - Implemented robust ML validation controls, including scaffold-based splits and adversarial y-shuffling to detect data leakage
-  - Quantified accuracy–compute trade-offs to optimize large-scale virtual screening pipelines
-  - Demonstrated scalable ML approaches for high-throughput antibiotic discovery  
-  - *Skills:* Python, PyTorch, Scikit-Learn, RDKit, Pandas
+<div class="resources-section">
+  <h2>Resources</h2>
+  <div class="resources-grid">
+    <a href="/projects/" class="resource-card">
+      <img src="/assets/images/resources/projects.jpg" alt="Projects preview" class="resource-card-image">
+      <div class="resource-card-content">
+        <h3>Projects</h3>
+        <p>View my portfolio</p>
+      </div>
+    </a>
+    <a href="https://www.linkedin.com/in/phong-h-le/" target="_blank" class="resource-card">
+      <img src="/assets/images/resources/linkedin.jpg" alt="LinkedIn profile preview" class="resource-card-image">
+      <div class="resource-card-content">
+        <h3>LinkedIn</h3>
+        <p>Connect with me</p>
+      </div>
+    </a>
+    <a href="https://medium.com/@ryoku_wave" target="_blank" class="resource-card">
+      <img src="/assets/images/resources/blog.jpg" alt="Blog preview" class="resource-card-image">
+      <div class="resource-card-content">
+        <h3>Blog</h3>
+        <p>Read my articles</p>
+      </div>
+    </a>
+    <a href="/assets/Resume.pdf" download class="resource-card">
+      <img src="/assets/images/resources/resume.png" alt="Resume preview" class="resource-card-image">
+      <div class="resource-card-content">
+        <h3>Resume</h3>
+        <p>Download PDF</p>
+      </div>
+    </a>
+    <a href="mailto:phl6@duke.edu" class="resource-card">
+      <img src="/assets/images/resources/contact.jpg" alt="Contact preview" class="resource-card-image">
+      <div class="resource-card-content">
+        <h3>Contact</h3>
+        <p>phl6@duke.edu</p>
+      </div>
+    </a>
+    <a href="https://www.goodreads.com/user/show/185259908-letsunami" class="resource-card">
+      <img src="/assets/images/resources/goodreads.png" alt="Goodreads profile preview" class="resource-card-image">
+      <div class="resource-card-content">
+        <h3>GoodReads</h3>
+        <p>Read my book reviews</p>
+      </div>
+    </a>
+  </div>
+</div>
 
-- **Arts North Carolina – Data Analyst & Policy Advocate**  
-  *Durham, NC · Jan–May 2025*
-  - Collaborated with Arts NC leadership and the NC Department of Public Instruction to advocate for the arts education Bill H418
-  - Harmonized four state and federal education datasets under regulatory and privacy constraints (e.g., FERPA)
-  - Applied machine learning techniques to identify academic performance disparities linked to arts education access
-  - Authored a legislative brief presented to **150+ legislators** during Arts Day NC  
-  - *Skills:* Python, Pandas, Scikit-Learn, SQL, Data Analysis
+<section class="gallery-section">
+  <h2 class="section-title">Gallery</h2>
 
-- **Systems Modeling of Gene-Circuit Biosensors – Gene Circuits Project**  
-  *Durham, NC · Aug–Dec 2025*
-  - Developed ODE-based biosensor models in Python to infer toxin concentrations from bioluminescent whole-cell data
-  - Applied nonlinear optimization and bootstrapping to quantify sensor sensitivity, detection limits, and dynamic range
-  - Modeled gene-circuit dynamics bridging synthetic biology and computational biosensing  
-  - *Skills:* Python, SciPy, ODE Modeling, Numerical Optimization, Data Visualization
+  <!-- Add or remove <figure class="slide"> blocks — the script is dynamic -->
+  <div class="gallery" id="js-gallery" aria-roledescription="carousel" aria-label="Image gallery">
+    <figure class="slide">
+      <img src="/assets/images/gallery/gal1.jpg" alt="Caption for image 1" loading="lazy">
+      <figcaption class="caption">14 y.o. me</figcaption>
+    </figure>
 
-- **Electromyography (EMG) Circuit – Bioinstrumentation Project**  
-  *Durham, NC · Aug–Dec 2024*
-  - Designed an analog EMG front-end using instrumentation amplifiers and bandpass filtering for muscle signal acquisition
-  - Optimized gain staging and noise rejection to isolate bicep and tricep activations
-  - Validated signal fidelity in low-noise environments for rehabilitation and prosthetic applications  
-  - *Skills:* Analog Electronics, Signal Processing, MATLAB, Python, Oscilloscopes
+    <figure class="slide">
+      <img src="/assets/images/gallery/gal2.jpg" alt="Caption for image 2" loading="lazy">
+      <figcaption class="caption">City Skyline of Phoenix, AZ</figcaption>
+    </figure>
 
-- **Analog Hearing Aid for Low-Resource Settings – Bioinstrumentation Project**  
-  *Durham, NC · Aug–Dec 2023*
-  - Designed and built a <$30 analog hearing aid achieving <2% harmonic distortion and up to 55× gain
-  - Engineered dual-passband filters optimized for speech frequencies (500–3000 Hz)
-  - Analyzed signal fidelity using MATLAB, Python, and oscilloscope measurements
-  - Validated performance with user trials achieving a **4.4/5 speech intelligibility score** (ANSI-compliant)  
-  - *Skills:* Analog Circuit Design, Signal Processing, MATLAB, Python, KiCad
+    <figure class="slide">
+      <img src="/assets/images/gallery/gal3.jpg" alt="Caption for image 3" loading="lazy">
+      <figcaption class="caption">Selfie w/ President of Intervarsity</figcaption>
+    </figure>
 
-- **Automated Computational Antibiotics Modeling Lab – Research Project with Dr. Michael Lynch**  
-  *Durham, NC · Jan–May 2023*
-  - Built an automated in silico screening pipeline for antibiotic analogues using molecular dynamics simulations
-  - Developed a Python-based workflow integrated with ChimeraX, increasing throughput by ~**100×**
-  - Applied AlphaFold and RDKit for large-scale structure-based and cheminformatics analysis  
-  - *Skills:* Python, Molecular Dynamics, AlphaFold, RDKit, Automation
+    <figure class="slide">
+      <img src="/assets/images/gallery/gal4.jpg" alt="Caption for image 4" loading="lazy">
+      <figcaption class="caption">Selfie w/ Influencer @aarondrizzy_</figcaption>
+    </figure>
 
-## Leadership and Activities
-- **MEDesign – Co-President**  
-  *Durham, NC · Jan 2023–May 2025*
-  - Led a 30+ member organization focused on medical device and digital health innovation
-  - Coordinated project planning, mentorship, and organizational operations
-  - Directed development of an app-linked wearable breathalyzer (BLE hardware, Flutter app, data transmission)
-  - Led a 5-member team to a functional MVP in **4 months**  
-  - *Skills:* Leadership, Project Management, BLE, Flutter, Hardware–Software Integration
+    <figure class="slide">
+      <img src="/assets/images/gallery/gal5.jpg" alt="Caption for image 5" loading="lazy">
+      <figcaption class="caption">CIEMAS @ Duke University</figcaption>
+    </figure>
 
-## Skills
+    <figure class="slide">
+      <img src="/assets/images/gallery/gal6.jpg" alt="Caption for image 6" loading="lazy">
+      <figcaption class="caption">Selfie w/ YouTuber Josh Starmer (StatQuest)</figcaption>
+    </figure>
 
-| Category | Skills |
-|----------|--------|
-| Machine Learning | Python, PyTorch, Scikit-Learn, RDKit, Pandas, TensorFlow, Data Processing, Feature Engineering |
-| Research | Image & Signal Processing, Data Visualization, ODE Modeling, Numerical Simulation, AlphaFold |
-| Embedded & Hardware | PCB Milling, Soldering, Oscilloscopes, BLE (Bluetooth), Arduino, KiCad, 3D Printing |
-| Software & Tools | Jupyter, GitHub, SQL, Firebase, Flutter, Fusion 360, C/C++, MATLAB |
+    <figure class="slide">
+      <img src="/assets/images/gallery/gal7.jpg" alt="Caption for image 7" loading="lazy">
+      <figcaption class="caption">Snowman in a Snowday</figcaption>
+    </figure>
+  </div>
 
+  <!-- dots will be injected here by JS -->
+  <div class="gallery-dots" id="js-dots" aria-hidden="false"></div>
+</section>
 
-## Contact
-Do not hesitate to reach out.
-- Email: phl6@duke.edu  
-- Phone: +1 843-957-2233  
-- [LinkedIn](https://www.linkedin.com/in/phong-h-le/)  
-- [GitHub (under construction as of 1/18/26)](YO FILL THIS IN LATER)    
+<!-- Inline script (minimal, unobtrusive) -->
+<script>
+(function () {
+  const gallery = document.getElementById('js-gallery');
+  if (!gallery) return;
 
-Portfolio hosted on GitHub Pages (as of January 2026).
+  const slides = Array.from(gallery.querySelectorAll('.slide'));
+  const dotsContainer = document.getElementById('js-dots');
+  if (!slides.length) return;
+
+  let active = Math.floor(slides.length / 2); // start centered (middle)
+  const spacing = Math.max(140, Math.round(window.innerWidth / 7)); // responsive gap
+  const maxVisibleDistance = 3; // how many neighbors to reasonably show
+
+  // make slides focusable and set ARIA roles
+  slides.forEach((s, i) => {
+    s.setAttribute('role', 'group');
+    s.setAttribute('aria-roledescription', 'slide');
+    s.setAttribute('aria-label', (i+1) + ' of ' + slides.length);
+    s.tabIndex = 0;
+  });
+
+  // create dots
+  function buildDots() {
+    dotsContainer.innerHTML = '';
+    dotsContainer.setAttribute('role', 'tablist');
+    slides.forEach((_, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'dot';
+      btn.type = 'button';
+      btn.setAttribute('aria-label', 'Show image ' + (i+1));
+      btn.addEventListener('click', () => { goTo(i); });
+      dotsContainer.appendChild(btn);
+    });
+  }
+
+  // apply transforms based on active index
+  function layout() {
+    slides.forEach((slide, i) => {
+      const d = i - active;
+      const abs = Math.abs(d);
+
+      // calculate translate based on distance and screen-size scaling
+      const offset = d * spacing;
+      let scale = 1 - 0.12 * Math.min(abs, maxVisibleDistance);
+      let opacity = 1 - 0.2 * Math.min(abs, maxVisibleDistance);
+      let z = 100 - abs;
+
+      // very far slides get a little smaller/less opaque but still visible
+      if (abs >= maxVisibleDistance) {
+        scale = 0.62;
+        opacity = 0.4;
+        z = 10;
+      }
+
+      // compute final transform (centered point is translate(-50%,-50%), we move from center)
+      slide.style.transform = `translate(calc(-50% + ${offset}px), -50%) scale(${scale})`;
+      slide.style.zIndex = z;
+      slide.style.opacity = opacity;
+      // show caption on active
+      const caption = slide.querySelector('.caption');
+      if (caption) caption.style.opacity = (abs === 0 ? '1' : '0');
+    });
+
+    // update dots active class
+    const dots = Array.from(dotsContainer.children);
+    dots.forEach((d, i) => d.classList.toggle('active', i === active));
+  }
+
+  function goTo(i) {
+    active = Math.max(0, Math.min(slides.length - 1, i));
+    layout();
+    // move focus to current slide for better keyboard/a11y
+    const s = slides[active];
+    if (s && typeof s.focus === 'function') s.focus();
+  }
+
+  // next/prev helpers
+  function next() { goTo(active + 1 === slides.length ? slides.length - 1 : active + 1); }
+  function prev() { goTo(active - 1 < 0 ? 0 : active - 1); }
+
+  // click on slide sets it active
+  slides.forEach((s, i) => s.addEventListener('click', () => goTo(i)));
+
+  // keyboard navigation
+  document.addEventListener('keydown', (ev) => {
+    if (ev.key === 'ArrowRight') { next(); ev.preventDefault(); }
+    if (ev.key === 'ArrowLeft')  { prev(); ev.preventDefault(); }
+  });
+
+  // recompute spacing on resize
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      // recalc spacing
+      // prefer at least 110px, responsive to viewport
+      const newSpacing = Math.max(110, Math.round(window.innerWidth / 7));
+      // mutate closure var by reassigning spacing? it's const — so instead we re-layout using computed offset per active.
+      // To keep it simple, just reload page layout by forcing layout with new spacing stored on element dataset
+      gallery.dataset.spacing = newSpacing;
+      layout();
+    }, 120);
+  });
+
+  // initial positioning: set container relative center baseline
+  // We'll absolutely position slides via CSS; the script just sets transforms.
+  // Add CSS necessary classes to slides (done by the page CSS).
+  // Build dots and layout
+  buildDots();
+
+  // ensure slides are absolutely centered by applying an initial transform origin
+  slides.forEach(s => {
+    s.style.position = 'absolute';
+    s.style.top = '50%';
+    s.style.left = '50%';
+    s.style.transform = 'translate(-50%, -50%) scale(0.78)';
+  });
+
+  // small accessibility: clicking dot moves active slide and announces change
+  dotsContainer.addEventListener('click', () => {
+    // layout will handle focus/visibility
+  });
+
+  // finally layout
+  layout();
+
+  // expose small API for dev console if needed
+  window._gallery = { goTo, next, prev, slidesCount: slides.length };
+})();
+</script>

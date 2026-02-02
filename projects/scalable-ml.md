@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Scalable ML for Antibiotic Virtual Screening
+title: Scalable ML for Antibiotic Screening
 permalink: /projects/scalable-ml/
 ---
 
@@ -22,21 +22,13 @@ permalink: /projects/scalable-ml/
 <h3>Overview</h3>
 
 This project addressed the critical challenge of antibiotic resistance by developing and benchmarking scalable machine learning approaches for virtual screening of antibiotic candidates. Working with computational drug discovery methods, I evaluated state-of-the-art graph neural networks against traditional ML baselines to optimize large-scale screening pipelines.
-
+<div style="height: 1rem;"></div>
 <div class="project-section">
 
 <h3>Presentation</h3>
 
 <div class="embed-container">
   <iframe src="https://docs.google.com/presentation/d/13CNicf0F2OOfqr5G2zVu5gawpYUTqZsEXWZDdDTiAVA/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-</div>
-
-<p style="text-align: center; margin-top: 0.5rem;">
-  <a href="https://docs.google.com/presentation/d/13CNicf0F2OOfqr5G2zVu5gawpYUTqZsEXWZDdDTiAVA/edit?usp=sharing" target="_blank" class="project-link project-link-secondary" style="display: inline-flex;">
-    Open in Google Slides
-  </a>
-</p>
-
 </div>
 
 <div class="project-section" markdown="1">

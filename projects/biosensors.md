@@ -10,8 +10,6 @@ permalink: /projects/biosensors/
 
 <div class="project-detail">
 
-<p><strong>Aug 2025 - Dec 2025</strong> · Duke University</p>
-
 <div class="tech-stack">
   <span class="tech-pill">Python</span>
   <span class="tech-pill">ODE Modeling</span>
@@ -23,7 +21,7 @@ permalink: /projects/biosensors/
 <h3>Overview</h3>
 
 Developed computational models for gene-circuit biosensors to analyze bioluminescent response data and infer toxin concentrations with quantified uncertainty.
-
+<div style="height: 1rem;"></div>
 <div class="project-section" markdown="1">
 
 <h3>Key Accomplishments</h3>
@@ -31,39 +29,26 @@ Developed computational models for gene-circuit biosensors to analyze biolumines
 - Developed ODE-based biosensor models in Python to infer toxin concentration from bioluminescent data
 - Applied nonlinear optimization and bootstrapping to recover analyte concentrations and quantify sensor sensitivity, detection limits, and dynamic range
 
-</div>
-
 <div class="project-section">
 
 <h3>Presentation</h3>
 
 <div class="embed-container">
-  <iframe src="" frameborder="0" allowfullscreen="true"></iframe>
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSq2Otvs5a_PNPg2hzWErPUwgs7x7kire4_7arwA6hlKI6_FP04XS3nn1knyTThQF6BKpOo5PFUEtDd/pubembed?" frameborder="0" allowfullscreen="true"></iframe>
 </div>
-
-<p><em>Add Google Slides embed link above</em></p>
 
 </div>
 
 <div class="project-section">
 
-<h3>Downloads</h3>
+<h3>Final Report</h3>
 
-<div class="downloads-section">
-  <h4>Project Materials</h4>
-  <ul class="download-list">
-    <li>
-      <a href="/assets/projects/biosensors/presentation.pdf" class="download-link" download>
-        <span>Presentation (PDF)</span>
-      </a>
-    </li>
-    <li>
-      <a href="/assets/projects/biosensors/report.pdf" class="download-link" download>
-        <span>Final Report (PDF)</span>
-      </a>
-    </li>
-  </ul>
-  <p><em>Add files to <code>/assets/projects/biosensors/</code></em></p>
+<div class="embed-container">
+  <object data="/assets/projects/biosensors/BME574 Final Report.pdf" type="application/pdf" width="100%" height="800px">
+    <p>
+      <a href="/assets/projects/biosensors/BME574 Final Report.pdf">
+    </p>
+  </object>
 </div>
 
 </div>
