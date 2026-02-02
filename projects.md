@@ -56,7 +56,6 @@ You will find detailed documentation of my engineering/research work, including 
     <div class="project-card-content" style="padding-top: 0;">
       <div class="project-card-links">
         <a href="/projects/scalable-ml/" class="project-link project-link-primary">View Details</a>
-        <a href="https://docs.google.com/presentation/d/13CNicf0F2OOfqr5G2zVu5gawpYUTqZsEXWZDdDTiAVA/edit?usp=sharing" target="_blank" class="project-link project-link-secondary">Slides</a>
       </div>
     </div>
   </div>
