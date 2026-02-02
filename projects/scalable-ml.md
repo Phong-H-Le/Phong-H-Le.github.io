@@ -19,17 +19,13 @@ permalink: /projects/scalable-ml/
   <span class="tech-pill">Cheminformatics</span>
 </div>
 
-<div class="project-section">
-
-### Overview
+<h3>Overview</h3>
 
 This project addressed the critical challenge of antibiotic resistance by developing and benchmarking scalable machine learning approaches for virtual screening of antibiotic candidates. Working with computational drug discovery methods, I evaluated state-of-the-art graph neural networks against traditional ML baselines to optimize large-scale screening pipelines.
 
-</div>
-
 <div class="project-section">
 
-### Key Accomplishments
+<h3>Key Accomplishments</h3>
 
 <ul class="project-highlights">
   <li>Benchmarked <strong>GNEprop</strong> (Nature Biotechnology, 2025) against Chemprop and XGBoost on 2,560 antibiotic candidates</li>
@@ -44,7 +40,7 @@ This project addressed the critical challenge of antibiotic resistance by develo
 
 <div class="project-section">
 
-### Presentation
+<h3>Presentation</h3>
 
 <div class="embed-container">
   <iframe src="https://docs.google.com/presentation/d/13CNicf0F2OOfqr5G2zVu5gawpYUTqZsEXWZDdDTiAVA/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -60,7 +56,7 @@ This project addressed the critical challenge of antibiotic resistance by develo
 
 <div class="project-section">
 
-### Media Gallery
+<h3>Media Gallery</h3>
 
 <div class="media-grid">
   <figure class="media-item">
@@ -79,7 +75,7 @@ This project addressed the critical challenge of antibiotic resistance by develo
 
 <div class="project-section">
 
-### Downloads
+<h3>Downloads</h3>
 
 <div class="downloads-section">
   <h4>Project Resources</h4>
@@ -104,7 +100,7 @@ This project addressed the critical challenge of antibiotic resistance by develo
 
 <div class="project-section">
 
-### Methods & Technical Details
+<h3>Methods & Technical Details</h3>
 
 **Data Processing:**
 - Utilized RDKit for molecular fingerprint generation and chemical descriptor calculation
