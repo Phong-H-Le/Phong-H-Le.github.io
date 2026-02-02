@@ -54,18 +54,18 @@ title: Home
         <p>Connect with me</p>
       </div>
     </a>
-    <a href="https://medium.com/@ryoku_wave" target="_blank" class="resource-card">
-      <img src="/assets/images/resources/blog.jpg" alt="Blog preview" class="resource-card-image">
-      <div class="resource-card-content">
-        <h3>Blog</h3>
-        <p>Read my articles</p>
-      </div>
-    </a>
     <a href="/assets/Resume.pdf" download class="resource-card">
       <img src="/assets/images/resources/resume.png" alt="Resume preview" class="resource-card-image">
       <div class="resource-card-content">
         <h3>Resume</h3>
         <p>Download PDF</p>
+      </div>
+    </a>
+    <a href="https://medium.com/@ryoku_wave" target="_blank" class="resource-card">
+      <img src="/assets/images/resources/blog.jpg" alt="Blog preview" class="resource-card-image">
+      <div class="resource-card-content">
+        <h3>Blog</h3>
+        <p>Read my articles</p>
       </div>
     </a>
     <a href="mailto:phl6@duke.edu" class="resource-card">
