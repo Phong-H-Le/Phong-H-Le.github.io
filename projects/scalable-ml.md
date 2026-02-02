@@ -39,7 +39,7 @@ This project addressed the critical challenge of antibiotic resistance by develo
 
 </div>
 
-<div class="project-section">
+<div class="project-section" markdown="1">
 
 <h3>Methods & Technical Details</h3>
 
