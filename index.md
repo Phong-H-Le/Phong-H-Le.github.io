@@ -21,7 +21,7 @@ title: Home
 </div>
 
 <div class="focus-section">
-  <p class="education-line">Duke University - B.S.E. Biomedical Engineering & B.A. Computer Science (May 2026)</p>
+  <h2 class="education-heading"><strong>Duke University</strong>: B.S.E Biomedical Engineering, B.A Computer Science</h2>
   <h2>Current Focus & Future Goals</h2>
   <p>
     I'm actively seeking <strong>full-time opportunities and internships</strong> in medical device development, healthcare technology, and applied machine learning. My current work spans wireless sensing/imaging systems and ML-driven diagnostics.

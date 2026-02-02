@@ -5,13 +5,13 @@
   font-size: 1.75rem;
   color: #24292e;
   margin: 0 0 1rem 0;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* Hero Section - Bio with Photo */
 .hero-section {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 3rem;
   margin: 1rem 0 2rem 0;
 }
@@ -47,18 +47,24 @@
   margin: 2rem 0;
 }
 
-.education-line {
-  font-size: 1rem;
-  color: #555;
+.education-heading {
+  font-size: 1.5rem;
+  color: #24292e;
   margin: 0 0 1.5rem 0;
   padding-bottom: 1rem;
   border-bottom: 1px solid #dee2e6;
+  font-weight: 400;
+}
+
+.education-heading strong {
+  font-weight: 700;
 }
 
 .focus-section h2 {
   font-size: 1.5rem;
   color: #24292e;
   margin-bottom: 1rem;
+  font-weight: 700;
 }
 
 .focus-section p {
@@ -81,6 +87,7 @@
   font-size: 1.5rem;
   color: #24292e;
   margin-bottom: 1.5rem;
+  font-weight: 700;
 }
 
 .resources-grid {
@@ -161,6 +168,7 @@
   font-size: 1.5rem;
   color: #24292e;
   margin-bottom: 1.5rem;
+  font-weight: 700;
 }
 
 .skills-grid {
@@ -215,18 +223,19 @@
 
 /* Gallery Section - Photo Deck Effect */
 .gallery-section {
-  margin: 2rem 0 3rem 0;
+  margin: 2rem 0 1rem 0;
 }
 
 .gallery-section h2 {
   font-size: 1.5rem;
   color: #24292e;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
 }
 
 .photo-deck {
   position: relative;
-  height: 400px;
+  height: 320px;
   perspective: 1000px;
   overflow: hidden;
 }
@@ -242,56 +251,46 @@
 
 .deck-card {
   position: absolute;
-  width: 350px;
+  width: 400px;
   height: 280px;
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-  animation: deckCycle 15s infinite;
+  animation: deckCycle 20s ease-in-out infinite;
   opacity: 0;
 }
 
 .deck-card:nth-child(1) { animation-delay: 0s; }
-.deck-card:nth-child(2) { animation-delay: 3s; }
-.deck-card:nth-child(3) { animation-delay: 6s; }
-.deck-card:nth-child(4) { animation-delay: 9s; }
-.deck-card:nth-child(5) { animation-delay: 12s; }
+.deck-card:nth-child(2) { animation-delay: 4s; }
+.deck-card:nth-child(3) { animation-delay: 8s; }
+.deck-card:nth-child(4) { animation-delay: 12s; }
+.deck-card:nth-child(5) { animation-delay: 16s; }
 
 @keyframes deckCycle {
   0% {
     opacity: 0;
-    transform: translateX(100px) translateZ(-200px) scale(0.8);
-    z-index: 1;
+    transform: translateX(150px) translateZ(-200px) scale(0.7);
+  }
+  2% {
+    opacity: 0.5;
   }
   5% {
     opacity: 1;
-    transform: translateX(50px) translateZ(-100px) scale(0.9);
-    z-index: 2;
+    transform: translateX(80px) translateZ(-100px) scale(0.85);
   }
   10% {
-    opacity: 1;
     transform: translateX(0) translateZ(0) scale(1);
-    z-index: 3;
   }
   15% {
-    opacity: 1;
-    transform: translateX(0) translateZ(0) scale(1);
-    z-index: 3;
+    transform: translateX(-80px) translateZ(-100px) scale(0.85);
   }
   20% {
-    opacity: 1;
-    transform: translateX(-50px) translateZ(-100px) scale(0.9);
-    z-index: 2;
-  }
-  25% {
     opacity: 0;
-    transform: translateX(-150px) translateZ(-200px) scale(0.8);
-    z-index: 1;
+    transform: translateX(-150px) translateZ(-200px) scale(0.7);
   }
   100% {
     opacity: 0;
-    transform: translateX(-150px) translateZ(-200px) scale(0.8);
-    z-index: 1;
+    transform: translateX(-150px) translateZ(-200px) scale(0.7);
   }
 }
 
@@ -321,11 +320,11 @@
   }
 
   .photo-deck {
-    height: 300px;
+    height: 250px;
   }
 
   .deck-card {
-    width: 280px;
-    height: 220px;
+    width: 300px;
+    height: 200px;
   }
 }
