@@ -1,0 +1,40 @@
+---
+---
+
+@import "minima";
+
+/* Custom Header Styling - Black with White Text */
+.site-header {
+  background-color: #000000;
+  border-bottom: 1px solid #333333;
+}
+
+.site-title,
+.site-title:visited {
+  color: #ffffff !important;
+}
+
+.site-nav .page-link {
+  color: #ffffff;
+}
+
+.site-nav .page-link:hover {
+  color: #cccccc;
+}
+
+/* Mobile menu icon (hamburger) */
+.site-nav .menu-icon > svg path {
+  fill: #ffffff;
+}
+
+/* Mobile menu background */
+@media screen and (max-width: 600px) {
+  .site-nav {
+    background-color: #000000;
+    border: 1px solid #333333;
+  }
+
+  .site-nav .trigger {
+    background-color: #000000;
+  }
+}
