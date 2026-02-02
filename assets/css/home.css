@@ -1,11 +1,19 @@
 /* Home Page Styles */
 
+/* Section Titles */
+.section-title {
+  font-size: 1.75rem;
+  color: #24292e;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
 /* Hero Section - Bio with Photo */
 .hero-section {
   display: flex;
   align-items: flex-start;
   gap: 3rem;
-  margin: 2rem 0 3rem 0;
+  margin: 1rem 0 1.5rem 0;
 }
 
 .hero-content {
@@ -31,26 +39,25 @@
   object-fit: cover;
 }
 
-.hero-education {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0 0 0;
+/* Education Section */
+.education-section {
+  margin: 1rem 0 2rem 0;
 }
 
-.hero-education li {
+.education-item {
   display: flex;
-  align-items: flex-start;
-  gap: 0.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 0.95rem;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
   color: #555;
 }
 
-.hero-education li::before {
-  content: "●";
-  color: #0366d6;
-  font-size: 0.6rem;
-  margin-top: 0.4rem;
+.education-bullet {
+  width: 8px;
+  height: 8px;
+  background: #0366d6;
+  border-radius: 50%;
+  flex-shrink: 0;
 }
 
 /* Focus/Future Section */
@@ -58,44 +65,29 @@
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   border-radius: 16px;
   padding: 2rem;
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 
 .focus-section h2 {
   font-size: 1.5rem;
   color: #24292e;
   margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
 }
 
 .focus-section p {
   font-size: 1rem;
   line-height: 1.7;
   color: #444;
+  margin-bottom: 1rem;
 }
 
-.focus-areas {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-top: 1.5rem;
-}
-
-.focus-tag {
-  background: white;
-  border: 2px solid #0366d6;
-  color: #0366d6;
-  padding: 0.5rem 1rem;
-  border-radius: 25px;
-  font-size: 0.9rem;
-  font-weight: 500;
+.focus-section p:last-of-type {
+  margin-bottom: 0;
 }
 
 /* Resources Section */
 .resources-section {
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 
 .resources-section h2 {
@@ -111,6 +103,7 @@
 }
 
 .resource-card {
+  position: relative;
   background: white;
   border: 1px solid #e1e4e8;
   border-radius: 12px;
@@ -122,7 +115,31 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.75rem;
+  justify-content: center;
+  min-height: 140px;
+  overflow: hidden;
+}
+
+.resource-card-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.15;
+  transition: opacity 0.2s ease;
+}
+
+.resource-card:hover .resource-card-bg {
+  opacity: 0.25;
+}
+
+.resource-card-content {
+  position: relative;
+  z-index: 1;
 }
 
 .resource-card:hover {
@@ -135,26 +152,10 @@
   color: inherit;
 }
 
-.resource-icon {
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 12px;
-  font-size: 1.5rem;
-}
-
-.resource-icon.projects { background: #dbeafe; color: #2563eb; }
-.resource-icon.linkedin { background: #e0f2fe; color: #0077b5; }
-.resource-icon.blog { background: #fef3c7; color: #d97706; }
-.resource-icon.resume { background: #d1fae5; color: #059669; }
-.resource-icon.contact { background: #fce7f3; color: #db2777; }
-
 .resource-card h3 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  margin: 0;
+  margin: 0 0 0.5rem 0;
   color: #24292e;
 }
 
@@ -166,7 +167,7 @@
 
 /* Skills Section */
 .skills-section {
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 
 .skills-section h2 {
@@ -225,6 +226,57 @@
 .skill-fill.hardware { background: linear-gradient(90deg, #a8edea, #fed6e3); }
 .skill-fill.software { background: linear-gradient(90deg, #d299c2, #fef9d7); }
 
+/* Slideshow Section */
+.slideshow-section {
+  margin: 2rem 0 3rem 0;
+}
+
+.slideshow-section h2 {
+  font-size: 1.5rem;
+  color: #24292e;
+  margin-bottom: 1.5rem;
+}
+
+.slideshow-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.slideshow-track {
+  display: flex;
+  animation: slideshow 30s linear infinite;
+}
+
+.slide {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 600px;
+  margin-right: 1rem;
+}
+
+.slide img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+@keyframes slideshow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-600px * 5 - 5rem));
+  }
+}
+
+/* Pause animation on hover */
+.slideshow-container:hover .slideshow-track {
+  animation-play-state: paused;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .hero-section {
@@ -237,15 +289,28 @@
     margin: 0 auto;
   }
 
-  .hero-education {
+  .education-section {
     text-align: left;
-  }
-
-  .focus-areas {
-    justify-content: center;
   }
 
   .resources-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .slide {
+    max-width: 300px;
+  }
+
+  .slide img {
+    height: 200px;
+  }
+
+  @keyframes slideshow {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-300px * 5 - 5rem));
+    }
   }
 }

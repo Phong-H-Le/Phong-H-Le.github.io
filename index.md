@@ -4,6 +4,8 @@ layout: default
 
 <link rel="stylesheet" href="/assets/css/home.css">
 
+<h2 class="section-title">About Me</h2>
+
 <div class="hero-section">
   <div class="hero-content">
     <p>
@@ -12,16 +14,18 @@ layout: default
     <p>
       I enjoy breaking down complex systems into clear, explainable components. Born in Hue City, Vietnam and raised in Myrtle Beach, SC. In my free time, I enjoy reading classics and theology, going to the gym, and cooking.
     </p>
-    <ul class="hero-education">
-      <li>Duke University - B.S.E. Biomedical Engineering & B.A. Computer Science (May 2026)</li>
-    </ul>
   </div>
   <div class="hero-image-container">
     <img src="/assets/images/background_headshot.png" alt="Phong Le" class="hero-image">
   </div>
 </div>
 
----
+<div class="education-section">
+  <div class="education-item">
+    <span class="education-bullet"></span>
+    <span>Duke University - B.S.E. Biomedical Engineering & B.A. Computer Science (May 2026)</span>
+  </div>
+</div>
 
 <div class="focus-section">
   <h2>Current Focus & Future Goals</h2>
@@ -31,49 +35,48 @@ layout: default
   <p>
     Looking ahead, I'm passionate about building technologies that can impact <strong>healthcare</strong>, <strong>defense</strong>, and <strong>public systems</strong>—creating tools that make a tangible difference in people's lives.
   </p>
-  <div class="focus-areas">
-    <span class="focus-tag">Medical Devices</span>
-    <span class="focus-tag">Machine Learning</span>
-    <span class="focus-tag">Wireless Sensing & Imaging</span>
-    <span class="focus-tag">Healthcare Tech</span>
-    <span class="focus-tag">Embedded Systems</span>
-  </div>
 </div>
-
----
 
 <div class="resources-section">
   <h2>Resources</h2>
   <div class="resources-grid">
     <a href="/projects/" class="resource-card">
-      <div class="resource-icon projects">📁</div>
-      <h3>Projects</h3>
-      <p>View my portfolio</p>
+      <div class="resource-card-bg" style="background-image: url('/assets/images/resources/projects.png');"></div>
+      <div class="resource-card-content">
+        <h3>Projects</h3>
+        <p>View my portfolio</p>
+      </div>
     </a>
     <a href="https://www.linkedin.com/in/phong-h-le/" target="_blank" class="resource-card">
-      <div class="resource-icon linkedin">in</div>
-      <h3>LinkedIn</h3>
-      <p>Connect with me</p>
+      <div class="resource-card-bg" style="background-image: url('/assets/images/resources/linkedin.png');"></div>
+      <div class="resource-card-content">
+        <h3>LinkedIn</h3>
+        <p>Connect with me</p>
+      </div>
     </a>
     <a href="https://medium.com/@phongle" target="_blank" class="resource-card">
-      <div class="resource-icon blog">✍️</div>
-      <h3>Blog</h3>
-      <p>Read my articles</p>
+      <div class="resource-card-bg" style="background-image: url('/assets/images/resources/blog.png');"></div>
+      <div class="resource-card-content">
+        <h3>Blog</h3>
+        <p>Read my articles</p>
+      </div>
     </a>
     <a href="/assets/Resume-SP26-v2.1c.pdf" download class="resource-card">
-      <div class="resource-icon resume">📄</div>
-      <h3>Resume</h3>
-      <p>Download PDF</p>
+      <div class="resource-card-bg" style="background-image: url('/assets/images/resources/resume.png');"></div>
+      <div class="resource-card-content">
+        <h3>Resume</h3>
+        <p>Download PDF</p>
+      </div>
     </a>
     <a href="mailto:phl6@duke.edu" class="resource-card">
-      <div class="resource-icon contact">✉️</div>
-      <h3>Contact</h3>
-      <p>phl6@duke.edu</p>
+      <div class="resource-card-bg" style="background-image: url('/assets/images/resources/contact.png');"></div>
+      <div class="resource-card-content">
+        <h3>Contact</h3>
+        <p>phl6@duke.edu</p>
+      </div>
     </a>
   </div>
 </div>
-
----
 
 <div class="skills-section">
   <h2>Skills & Expertise</h2>
@@ -144,6 +147,22 @@ layout: default
           <div class="skill-fill software" style="width: 70%;"></div>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="slideshow-section">
+  <h2>Gallery</h2>
+  <div class="slideshow-container">
+    <div class="slideshow-track">
+      <div class="slide"><img src="/assets/images/slideshow/slide1.jpg" alt="Slide 1"></div>
+      <div class="slide"><img src="/assets/images/slideshow/slide2.jpg" alt="Slide 2"></div>
+      <div class="slide"><img src="/assets/images/slideshow/slide3.jpg" alt="Slide 3"></div>
+      <div class="slide"><img src="/assets/images/slideshow/slide4.jpg" alt="Slide 4"></div>
+      <div class="slide"><img src="/assets/images/slideshow/slide5.jpg" alt="Slide 5"></div>
+      <!-- Duplicate first slides for seamless loop -->
+      <div class="slide"><img src="/assets/images/slideshow/slide1.jpg" alt="Slide 1"></div>
+      <div class="slide"><img src="/assets/images/slideshow/slide2.jpg" alt="Slide 2"></div>
     </div>
   </div>
 </div>
