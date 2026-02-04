@@ -1,8 +1,4 @@
-/* Home Page Styles - Clean & Minimal Responsive Hero
-   - Preserves desktop side-by-side layout
-   - Stacks text above image on narrow screens
-   - Minimal overrides to beat theme specificity when needed
-*/
+/* Home Page Styles - Clean & Minimal Responsive Hero */
 
 /* predictable sizing */
 *, *::before, *::after { box-sizing: border-box; }
@@ -15,7 +11,7 @@
   font-weight: 700;
 }
 
-/* Hero Section - Bio with Photo */
+/* Hero Section */
 .hero-section {
   display: flex;
   align-items: center;
@@ -24,11 +20,9 @@
   padding: 1rem 0;
 }
 
-/* Ensure hero text can shrink in flex containers */
 .hero-content {
   flex: 1 1 55%;
-  min-width: 0; /* prevents the long-standing flex child overflow bug */
-  width: auto;
+  min-width: 0;
 }
 
 .hero-content p {
@@ -36,12 +30,8 @@
   line-height: 1.75;
   color: #333;
   margin-bottom: 1.25rem;
-  white-space: normal;
-  word-break: normal;
-  hyphens: auto;
 }
 
-/* Image container: stable size on desktop */
 .hero-image-container {
   flex: 0 0 280px;
   display: flex;
@@ -59,7 +49,42 @@
   display: block;
 }
 
-/* Focus/Future Section */
+/* Education Banner - stronger specificity so theme rules can't override */
+.education-banner-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem 0 2rem;
+}
+
+/* Primary rule */
+.education-banner-section .education-banner-image {
+  max-width: 1100px;
+  width: 90%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  overflow: hidden;
+}
+
+/* More specific — wins over many theme rules */
+body .education-banner-section .education-banner-image {
+  border-radius: 12px !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15) !important;
+  -webkit-box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15) !important;
+  display: block !important;
+}
+
+/* Fallback in case the theme applies image styling by targeting img directly */
+.education-banner-section img {
+  border-radius: 12px !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15) !important;
+  display: block !important;
+}
+
+/* Focus Section */
 .focus-section {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   border-radius: 16px;
@@ -67,24 +92,29 @@
   margin: 2rem 0;
 }
 
-.education-heading {
+.focus-section h2 {
   font-size: 1.5rem;
   color: #24292e;
-  margin: 0 0 1.5rem 0;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #dee2e6;
-  font-weight: 400;
+  margin-bottom: 1rem;
+  font-weight: 700;
 }
 
-.education-heading strong { font-weight: 700; }
-
-.focus-section h2 { font-size: 1.5rem; color: #24292e; margin-bottom: 1rem; font-weight: 700; }
-.focus-section p { font-size: 1rem; line-height: 1.7; color: #444; margin-bottom: 1rem; }
-.focus-section p:last-of-type { margin-bottom: 0; }
+.focus-section p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 1rem;
+}
 
 /* Resources Section */
 .resources-section { margin: 2rem 0; }
-.resources-section h2 { font-size: 1.5rem; color: #24292e; margin-bottom: 1.5rem; font-weight: 700; }
+
+.resources-section h2 {
+  font-size: 1.5rem;
+  color: #24292e;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
 
 .resources-grid {
   display: grid;
@@ -101,7 +131,6 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   display: flex;
   flex-direction: column;
-  height: 100%;
   text-decoration: none;
   color: inherit;
 }
@@ -120,101 +149,33 @@
   border-bottom: 1px solid #e1e4e8;
 }
 
-.resource-card:hover .resource-card-image {
-  transform: scale(1.04);
-  transition: transform 0.35s ease;
-}
-
 .resource-card-content {
   padding: 1.25rem 1.5rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
 }
 
-.resource-card h3 {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin: 0 0 0.5rem 0;
-  color: #24292e;
-}
-
-.resource-card p {
-  font-size: 0.85rem;
-  color: #6a737d;
-  margin: 0;
-  line-height: 1.5;
-}
-
-/* Gallery / Slider styles (unchanged) */
-.gallery-section { margin: 1.25rem 0 3rem; position: relative; }
-.section-title { font-size: 1.75rem; font-weight: 800; margin: 0 0 0.5rem 0; color: #111; }
-.gallery { position: relative; width: 100%; max-width:1100px; margin:0 auto; height:460px; overflow:visible; }
-.slide { width:320px; height:380px; margin:0; border-radius:12px; box-shadow:0 14px 40px rgba(0,0,0,0.12); transition: transform 0.5s cubic-bezier(.22,.9,.37,1), opacity .4s ease; transform-origin:center center; cursor:pointer; background:#f6f6f6; overflow:hidden; }
-.slide img { width:100%; height:100%; display:block; object-fit:cover; }
-.caption { position:absolute; left:0; right:0; bottom:0; padding:.6rem .9rem; font-size:.9rem; color:#fff; background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0)); border-radius:0 0 12px 12px; opacity:0; transition: opacity .25s ease, transform .25s ease; pointer-events:none; }
-.gallery-dots { position:absolute; left:50%; transform:translateX(-50%); bottom:12px; display:flex; gap:10px; z-index:999; }
-.gallery-dots .dot { width:12px; height:12px; border-radius:50%; background:#ddd; border:none; padding:0; cursor:pointer; transition:transform .2s ease, background .2s ease; }
-.gallery-dots .dot.active, .gallery-dots .dot:hover { background:#0366d6; transform:scale(1.25); }
-
-/* Responsive tweaks (desktop -> tablet) */
-@media (max-width: 900px) {
-  .gallery { height: 380px; }
-  .slide { width: 260px; height: 300px; }
-}
-
-/* Minimal, high-confidence mobile override
-   - changes only flex-direction and ordering
-   - uses a slightly more specific selector to win over theme rules
-   - uses just a couple of !important declarations where themes are very specific
-*/
+/* Responsive */
 @media (max-width: 720px) {
-  body .hero-section {
-    display: flex !important;
+  .hero-section {
     flex-direction: column;
     align-items: stretch;
     gap: 1rem;
     padding: 0.75rem 1rem;
-    width: 100%;
   }
 
-  body .hero-content {
-    order: 1 !important;         /* ensure text comes first */
-    width: 100%;
-    max-width: 100%;
-    min-width: 0;
-    text-align: left;
-    display: block;
-  }
-
-  body .hero-content p {
-    font-size: 1rem;
-    line-height: 1.6;
-    white-space: normal;
-    word-break: break-word;
-    hyphens: auto;
-  }
-
-  body .hero-image-container {
-    order: 2 !important;         /* image after text */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 0.6rem;
-  }
-
-  body .hero-image {
+  .hero-image {
     max-width: 240px;
     width: 75%;
-    height: auto;
-    display: block;
     margin: 0 auto;
+  }
+
+  /* Slightly reduce radius on very small screens for a neater fit */
+  body .education-banner-section .education-banner-image {
+    border-radius: 10px !important;
+    width: 95% !important;
   }
 }
 
-/* Extra-small phones */
 @media (max-width: 360px) {
-  .hero-image { max-width: 160px; width: 70%; }
+  .hero-image { max-width: 160px; }
   .section-title { font-size: 1.5rem; }
-  .resource-card p { font-size: 0.8rem; }
 }
