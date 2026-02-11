@@ -11,6 +11,29 @@ You will find detailed documentation of my engineering/research work, including 
 ---
 
 <div class="project-gallery">
+  <!-- Laser-Mic Project -->
+  <div class="project-card">
+    <a href="/projects/laser-mic/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/projects/laser-mic/thumbnail.jpg" alt="Laser Microphone" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/6c5ce7/ffffff?text=Laser+Microphone'">
+      <div class="project-card-content">
+        <h3 class="project-card-title">Laser Microphone (Laser Vibrometry)</h3>
+        <p class="project-card-date">Feb 2026 - Present | Work in Progress</p>
+        <p class="project-card-description">
+          Reconstructing audio signals in closed rooms by observing interferometry changes from a reflected laser beam on a vibrating surface.
+        </p>
+        <div class="project-card-tags">
+          <span class="project-tag">Biophotonics</span>
+          <span class="project-tag">Microcontrollers</span>
+          <span class="project-tag">Signal Processing</span>
+        </div>
+      </div>
+    </a>
+    <div class="project-card-content" style="padding-top: 0;">
+      <div class="project-card-links">
+        <a href="/projects/laser-mic/" class="project-link project-link-primary">View Details</a>
+      </div>
+    </div>
+  </div>
 
   <!-- WiFi-RF Imaging Project -->
   <div class="project-card">

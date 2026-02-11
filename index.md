@@ -52,7 +52,7 @@ title: Home
   <h2>Resources</h2>
   <div class="resources-grid">
     <a href="/projects/" class="resource-card">
-      <img src="/assets/images/resources/projects.jpg" alt="Projects preview" class="resource-card-image">
+      <img src="/assets/images/resources/laserproject.jpg" alt="Projects preview" class="resource-card-image">
       <div class="resource-card-content">
         <h3>Projects</h3>
         <p>View my portfolio</p>
