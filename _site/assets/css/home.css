@@ -1,4 +1,7 @@
-/* Home Page Styles */
+/* Home Page Styles - Clean & Minimal Responsive Hero */
+
+/* predictable sizing */
+*, *::before, *::after { box-sizing: border-box; }
 
 /* Section Titles */
 .section-title {
@@ -8,56 +11,85 @@
   font-weight: 700;
 }
 
-/* Hero Section - Bio with Photo */
+/* Hero Section */
 .hero-section {
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 2.5rem;
   margin: 1rem 0 2rem 0;
+  padding: 1rem 0;
 }
 
 .hero-content {
-  flex: 1;
+  flex: 1 1 55%;
+  min-width: 0;
 }
 
 .hero-content p {
-  font-size: 1.1rem;
-  line-height: 1.8;
+  font-size: 1.05rem;
+  line-height: 1.75;
   color: #333;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 
 .hero-image-container {
-  flex-shrink: 0;
+  flex: 0 0 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-image {
-  width: 280px;
+  width: 100%;
+  max-width: 280px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
   object-fit: cover;
+  display: block;
 }
 
-/* Focus/Future Section */
+/* Education Banner - stronger specificity so theme rules can't override */
+.education-banner-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem 0 2rem;
+}
+
+/* Primary rule */
+.education-banner-section .education-banner-image {
+  max-width: 1100px;
+  width: 90%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  overflow: hidden;
+}
+
+/* More specific — wins over many theme rules */
+body .education-banner-section .education-banner-image {
+  border-radius: 12px !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15) !important;
+  -webkit-box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15) !important;
+  display: block !important;
+}
+
+/* Fallback in case the theme applies image styling by targeting img directly */
+.education-banner-section img {
+  border-radius: 12px !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15) !important;
+  display: block !important;
+}
+
+/* Focus Section */
 .focus-section {
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   border-radius: 16px;
   padding: 2rem;
   margin: 2rem 0;
-}
-
-.education-heading {
-  font-size: 1.5rem;
-  color: #24292e;
-  margin: 0 0 1.5rem 0;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #dee2e6;
-  font-weight: 400;
-}
-
-.education-heading strong {
-  font-weight: 700;
 }
 
 .focus-section h2 {
@@ -74,14 +106,8 @@
   margin-bottom: 1rem;
 }
 
-.focus-section p:last-of-type {
-  margin-bottom: 0;
-}
-
 /* Resources Section */
-.resources-section {
-  margin: 2rem 0;
-}
+.resources-section { margin: 2rem 0; }
 
 .resources-section h2 {
   font-size: 1.5rem;
@@ -97,22 +123,21 @@
 }
 
 .resource-card {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #e1e4e8;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   display: flex;
   flex-direction: column;
-  height: 100%;
   text-decoration: none;
   color: inherit;
 }
 
 .resource-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
   border-color: #0366d6;
 }
 
@@ -124,124 +149,33 @@
   border-bottom: 1px solid #e1e4e8;
 }
 
-.resource-card:hover .resource-card-image {
-  transform: scale(1.04);
-  transition: transform 0.35s ease;
-}
-
 .resource-card-content {
   padding: 1.25rem 1.5rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
 }
 
-.resource-card h3 {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin: 0 0 0.5rem 0;
-  color: #24292e;
+/* Responsive */
+@media (max-width: 720px) {
+  .hero-section {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .hero-image {
+    max-width: 240px;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  /* Slightly reduce radius on very small screens for a neater fit */
+  body .education-banner-section .education-banner-image {
+    border-radius: 10px !important;
+    width: 95% !important;
+  }
 }
 
-.resource-card p {
-  font-size: 0.85rem;
-  color: #6a737d;
-  margin: 0;
-  line-height: 1.5;
+@media (max-width: 360px) {
+  .hero-image { max-width: 160px; }
+  .section-title { font-size: 1.5rem; }
 }
-/* ===== Gallery / Slider styles (dynamic JS-driven) ===== */
-
-.gallery-section {
-  margin: 1.25rem 0 3rem;
-  position: relative;
-}
-
-.section-title {
-  font-size: 1.75rem;
-  font-weight: 800;
-  margin: 0 0 0.5rem 0;
-  color: #111;
-}
-
-/* gallery container: positioning context */
-.gallery {
-  position: relative;
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
-  height: 460px; /* adjust as desired */
-  overflow: visible; /* slides move beyond edges */
-}
-
-/* slides (figure) */
-.slide {
-  width: 320px;
-  height: 380px;
-  margin: 0;
-  border-radius: 12px;
-  box-shadow: 0 14px 40px rgba(0,0,0,0.12);
-  transition: transform 0.5s cubic-bezier(.22,.9,.37,1), opacity 0.4s ease;
-  transform-origin: center center;
-  cursor: pointer;
-  background: #f6f6f6;
-  overflow: hidden;
-}
-
-/* image fit */
-.slide img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-}
-
-/* caption overlay */
-.caption {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 0.6rem 0.9rem;
-  font-size: 0.9rem;
-  color: #fff;
-  background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.0));
-  border-radius: 0 0 12px 12px;
-  opacity: 0;
-  transition: opacity 0.25s ease, transform 0.25s ease;
-  pointer-events: none;
-}
-
-/* dots */
-.gallery-dots {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 12px;
-  display: flex;
-  gap: 10px;
-  z-index: 999;
-}
-
-.gallery-dots .dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #ddd;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  transition: transform .2s ease, background .2s ease;
-}
-
-.gallery-dots .dot.active,
-.gallery-dots .dot:hover {
-  background: #0366d6;
-  transform: scale(1.25);
-}
-
-/* responsive tweaks */
-@media (max-width: 900px) {
-  .gallery { height: 380px; }
-  .slide { width: 260px; height: 300px; }
-}
-@media (max-width: 520px) {
