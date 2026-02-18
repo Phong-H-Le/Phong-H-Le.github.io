@@ -19,14 +19,16 @@ permalink: /projects/monte-carlo-light/
 
 <h3>Overview</h3>
 
-Simulated photon transport through biological tissue using Monte Carlo methods, modeling light scattering and absorption to understand how light propagates in turbid media. Developed for the Deep Tissue Optics course.
+Simulated photon transport through biological tissue using Monte Carlo methods, modeling light scattering and absorption to understand how light propagates in ideal tissue slab. Developed for Deep Tissue Optics course.
 
 <div class="project-section">
-
+<br>
 <h3>Simulation</h3>
-
+This is 
 <div style="text-align: center; margin: 1.5rem 0;">
   <img src="/assets/projects/monte-carlo-light/simulation.gif" alt="Monte Carlo light simulation" style="max-width: 100%; border-radius: 8px;">
+  <div>
+  <figcaption>Verification of Constructed Circuit with Commercial Clinical PPG</figcaption>
 </div>
 
 </div>
