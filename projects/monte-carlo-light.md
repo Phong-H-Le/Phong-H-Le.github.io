@@ -24,11 +24,12 @@ Simulated photon transport through biological tissue using Monte Carlo methods, 
 <div class="project-section">
 <br>
 <h3>Simulation</h3>
-This is 
-<div style="text-align: center; margin: 1.5rem 0;">
-  <img src="/assets/projects/monte-carlo-light/simulation.gif" alt="Monte Carlo light simulation" style="max-width: 100%; border-radius: 8px;">
-  <div>
-  <figcaption>Verification of Constructed Circuit with Commercial Clinical PPG</figcaption>
+
+<div class="media-container">
+  <figure class="media-item">
+    <img src="/assets/projects/monte-carlo-light/simulation.gif" alt="Monte Carlo light simulation" onerror="this.parentElement.style.display='none'">
+    <figcaption>Monte Carlo photon transport simulation through turbid tissue media</figcaption>
+  </figure>
 </div>
 
 </div>
