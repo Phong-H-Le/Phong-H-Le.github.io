@@ -65,9 +65,9 @@ You will find detailed documentation of my engineering/research work, including 
       <img src="/assets/projects/monte-carlo-light/simulation.gif" alt="Monte Carlo Light Simulation" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/2d3436/ffffff?text=Monte+Carlo+Light'">
       <div class="project-card-content">
         <h3 class="project-card-title">Monte Carlo Simulation of Light</h3>
-        <p class="project-card-date">2025 | Deep Tissue Optics</p>
+        <p class="project-card-date">Feb 2025 | Duke University</p>
         <p class="project-card-description">
-          Simulated photon transport through tissue using Monte Carlo methods to model light scattering and absorption in tissue media.
+          Monte Carlo simulation of light photons through biological tissue, modeling light scattering and absorption.
         </p>
         <div class="project-card-tags">
           <span class="project-tag">Python</span>
