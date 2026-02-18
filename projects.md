@@ -36,6 +36,30 @@ You will find detailed documentation of my engineering/research work, including 
     </div>
   </div>
 
+  <!-- Monte Carlo Simulation of Light -->
+  <div class="project-card">
+    <a href="/projects/monte-carlo-light/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/projects/monte-carlo-light/simulation.gif" alt="Monte Carlo Light Simulation" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/2d3436/ffffff?text=Monte+Carlo+Light'">
+      <div class="project-card-content">
+        <h3 class="project-card-title">Monte Carlo Simulation of Light</h3>
+        <p class="project-card-date">2025 | Deep Tissue Optics</p>
+        <p class="project-card-description">
+          Simulated photon transport through tissue using Monte Carlo methods to model light scattering and absorption in biological media.
+        </p>
+        <div class="project-card-tags">
+          <span class="project-tag">Python</span>
+          <span class="project-tag">Monte Carlo</span>
+          <span class="project-tag">Optics</span>
+        </div>
+      </div>
+    </a>
+    <div class="project-card-content" style="padding-top: 0;">
+      <div class="project-card-links">
+        <a href="/projects/monte-carlo-light/" class="project-link project-link-primary">View Details</a>
+      </div>
+    </div>
+  </div>
+
   <!-- Scalable ML Project -->
   <div class="project-card">
     <a href="/projects/scalable-ml/" style="text-decoration: none; color: inherit;">
