@@ -67,7 +67,7 @@ You will find detailed documentation of my engineering/research work, including 
         <h3 class="project-card-title">Monte Carlo Simulation of Light</h3>
         <p class="project-card-date">2025 | Deep Tissue Optics</p>
         <p class="project-card-description">
-          Simulated photon transport through tissue using Monte Carlo methods to model light scattering and absorption in biological media.
+          Simulated photon transport through tissue using Monte Carlo methods to model light scattering and absorption in tissue media.
         </p>
         <div class="project-card-tags">
           <span class="project-tag">Python</span>
