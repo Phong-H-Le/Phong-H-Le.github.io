@@ -65,7 +65,7 @@ You will find detailed documentation of my engineering/research work, including 
       <img src="/assets/projects/monte-carlo-light/simulation.gif" alt="Monte Carlo Light Simulation" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/2d3436/ffffff?text=Monte+Carlo+Light'">
       <div class="project-card-content">
         <h3 class="project-card-title">Monte Carlo Simulation of Light</h3>
-        <p class="project-card-date">Feb 2025 | Duke University</p>
+        <p class="project-card-date">Feb 2026 | Duke University</p>
         <p class="project-card-description">
           Monte Carlo simulation of light photons through biological tissue, modeling light scattering and absorption.
         </p>
