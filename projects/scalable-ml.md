@@ -26,7 +26,6 @@ This project addressed the critical challenge of antibiotic resistance by develo
 <div class="project-section">
 
 <h3>Presentation</h3>
-
 <div class="embed-container">
   <iframe src="https://docs.google.com/presentation/d/13CNicf0F2OOfqr5G2zVu5gawpYUTqZsEXWZDdDTiAVA/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
