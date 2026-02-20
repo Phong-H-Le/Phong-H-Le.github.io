@@ -38,9 +38,9 @@ You will find detailed documentation of my engineering/research work, including 
   <!-- WiFi-RF Imaging Project -->
   <div class="project-card">
     <a href="/projects/wifi-rf/" style="text-decoration: none; color: inherit;">
-      <img src="/assets/projects/wifi-rf/thumbnail.jpg" alt="WiFi-RF Imaging" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/6c5ce7/ffffff?text=WiFi-RF+Imaging'">
+      <img src="/assets/projects/wifi-rf/thumbnail.jpg" alt="WiFi-RF Sensing" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/6c5ce7/ffffff?text=WiFi-RF+Sensing'">
       <div class="project-card-content">
-        <h3 class="project-card-title">WiFi-RF Imaging Project</h3>
+        <h3 class="project-card-title">WiFi-RF Sensing Project</h3>
         <p class="project-card-date">Jan 2026 - Present | Work in Progress</p>
         <p class="project-card-description">
           <strong>Personal project to detect movement and presence in any room with WiFi.</strong> Developing wireless sensing capabilities from ESP32 IoT microcontrollers for RF-based imaging applications.

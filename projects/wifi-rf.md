@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WiFi-RF Imaging Project
+title: WiFi-RF Sensing Project
 permalink: /projects/wifi-rf/
 ---
 
