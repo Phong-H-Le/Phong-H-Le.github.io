@@ -19,7 +19,7 @@ You will find detailed documentation of my engineering/research work, including 
         <h3 class="project-card-title">Laser Microphone</h3>
         <p class="project-card-date">Feb 2026 - Present | Work in Progress</p>
         <p class="project-card-description">
-          <strong>Senior project to image inside tissue using laser light and sound.</strong> Reconstructing photo- acoustic signals in tissue phantom by observing interferometry changes from a reflected laser beam.
+          <strong>Senior project to image inside tissue using laser light and sound.</strong> Reconstructing photo-acoustic signals in tissue phantom by observing interferometry changes from a reflected laser beam.
         </p>
         <div class="project-card-tags">
           <span class="project-tag">Biophotonics</span>
