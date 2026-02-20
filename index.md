@@ -103,6 +103,6 @@ title: Home
 
 
 <!-- Double-Slit Interference Animation -->
-<div style="margin: 2rem 0; border-radius: 14px; overflow: hidden; box-shadow: 0 8px 30px rgba(0,0,0,0.25); line-height: 0;">
+<div style="margin: 2rem 0; border-radius: 14px; overflow: hidden; line-height: 0;">
   <img src="/assets/images/home/doubleslit.gif" alt="Young's double-slit interference animation" style="width: 100%; display: block; border-radius: 14px;">
 </div>
