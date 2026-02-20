@@ -19,14 +19,14 @@ title: Home
     </p>
   </div>
   <div class="hero-image-container">
-    <img src="/assets/images/background_headshot.png" alt="Phong Le" class="hero-image">
+    <img src="/assets/images/home/background_headshot.png" alt="Phong Le" class="hero-image">
   </div>
 </div>
 
 <!-- Education Banner -->
 <div class="education-banner-section" style="margin-top: -0.75rem;">
   <img
-    src="/assets/images/education-banner.png"
+    src="/assets/images/home/education-banner.png"
     alt="Duke University — Biomedical Engineering and Computer Science"
     class="education-banner-image"
     style="border-radius:12px; box-shadow:0 8px 30px rgba(0,0,0,0.15); display:block; -webkit-box-shadow:0 8px 30px rgba(0,0,0,0.15);"
@@ -99,4 +99,10 @@ title: Home
       </div>
     </a>
   </div>
+</div>
+
+
+<!-- Double-Slit Interference Animation -->
+<div style="margin: 2rem 0; border-radius: 14px; overflow: hidden; box-shadow: 0 8px 30px rgba(0,0,0,0.25); line-height: 0;">
+  <img src="/assets/images/home/doubleslit.gif" alt="Young's double-slit interference animation" style="width: 100%; display: block; border-radius: 14px;">
 </div>
