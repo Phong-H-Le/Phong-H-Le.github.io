@@ -251,6 +251,31 @@ You will find detailed documentation of my engineering/research work, including 
     </div>
   </div>
 
+  <!-- UChat -->
+  <div class="project-card">
+    <a href="/projects/uchat/" style="text-decoration: none; color: inherit;">
+      <img src="/assets/projects/uchat/thumbnail.png" alt="UChat App" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/6c5ce7/ffffff?text=UChat'">
+      <div class="project-card-content">
+        <h3 class="project-card-title">UChat</h3>
+        <p class="project-card-date">Aug - Dec 2023 | Duke Kunshan University</p>
+        <p class="project-card-description">
+          <strong>Anonymous 1-on-1 chat app for university students to connect by shared hobbies.</strong> Cross-platform mobile app built with React Native and Firebase for real-time messaging within a campus community.
+        </p>
+        <div class="project-card-tags">
+          <span class="project-tag">React Native</span>
+          <span class="project-tag">Firebase</span>
+          <span class="project-tag">TypeScript</span>
+          <span class="project-tag">Mobile App</span>
+        </div>
+      </div>
+    </a>
+    <div class="project-card-content" style="padding-top: 0;">
+      <div class="project-card-links">
+        <a href="/projects/uchat/" class="project-link project-link-primary">View Details</a>
+      </div>
+    </div>
+  </div>
+
   <!-- Lynch Lab -->
   <div class="project-card">
     <a href="/projects/lynch-lab/" style="text-decoration: none; color: inherit;">
