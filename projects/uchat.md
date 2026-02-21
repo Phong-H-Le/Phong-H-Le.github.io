@@ -23,10 +23,8 @@ Class project from Duke Kunshan University. UChat is an anonymous 1-on-1 chat ap
 
 <div style="margin-top: 1.5rem;"></div>
 
-<h3>Demo</h3>
-
-<div class="embed-container">
-  <iframe src="https://drive.google.com/file/d/1dmAc3T7IUIILbJkXWPHJwf5hFjB96LOU/preview" frameborder="0" allowfullscreen="true"></iframe>
+<div class="project-card-links">
+  <a href="https://github.com/Ydz0616/UChat" class="project-link project-link-primary" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 </div>
 
 </div>
