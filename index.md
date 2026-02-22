@@ -4,6 +4,7 @@ title: Home
 ---
 
 <link rel="stylesheet" href="/assets/css/home.css">
+<link rel="stylesheet" href="/assets/css/projects.css">
 
 <div id="hero" class="hero-section">
   <div class="hero-content">
@@ -103,6 +104,9 @@ title: Home
 
 
 <!-- Double-Slit Interference Animation -->
-<div style="margin: 2rem 0; border-radius: 14px; overflow: hidden; line-height: 0;">
-  <img src="/assets/images/home/doubleslit.gif" alt="Young's double-slit interference animation" style="width: 100%; display: block; border-radius: 14px;">
+<div style="margin: 2rem 0;">
+  <figure class="media-item" style="margin: 0;">
+    <img src="/assets/images/home/doubleslit.gif" alt="Young's double-slit interference animation" style="width: 100%; display: block;">
+    <figcaption>Young's Double-Slit Experiment</figcaption>
+  </figure>
 </div>
