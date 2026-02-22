@@ -1,6 +1,7 @@
-/* Smooth scroll for in-page anchor links */
+/* Smooth scroll + offset for sticky header */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 72px;
 }
 
 /* Project Section Headings */
