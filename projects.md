@@ -254,7 +254,7 @@ You will find detailed documentation of my engineering/research work, including 
   <!-- UChat -->
   <div class="project-card">
     <a href="/projects/uchat/" style="text-decoration: none; color: inherit;">
-      <img src="/assets/projects/uchat/thumbnail.png" alt="UChat App" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/6c5ce7/ffffff?text=UChat'">
+      <img src="/assets/projects/uchat/thumbnail3.png" alt="UChat App" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/6c5ce7/ffffff?text=UChat'">
       <div class="project-card-content">
         <h3 class="project-card-title">UChat</h3>
         <p class="project-card-date">Aug - Dec 2023 | Duke University</p>
