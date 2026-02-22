@@ -10,7 +10,8 @@ You will find detailed documentation of my engineering/research work, including 
 
 ---
 <div style="margin: 2rem;"></div>
-<div class="project-section-heading" id="bioinstrumentation">
+<div id="bioinstrumentation" style="position:relative;top:-80px;height:0;overflow:hidden;visibility:hidden;"></div>
+<div class="project-section-heading">
   <h2><i>Bioinstrumentation</i></h2>
   <p>Electronics, sensors, and hardware instrumentation projects.</p>
 </div>
@@ -161,7 +162,8 @@ You will find detailed documentation of my engineering/research work, including 
   </div>
 </div>
 <div style="margin: 2rem;"></div>
-<div class="project-section-heading" id="computation">
+<div id="ml-modeling" style="position:relative;top:-80px;height:0;overflow:hidden;visibility:hidden;"></div>
+<div class="project-section-heading">
   <h2><i>ML & Modeling</i></h2>
   <p>Machine learning, data analytics, and computational research projects.</p>
 </div>
@@ -264,7 +266,8 @@ You will find detailed documentation of my engineering/research work, including 
   </div>
 </div>
 <div style="margin: 2rem;"></div>
-<div class="project-section-heading" id="software">
+<div id="software" style="position:relative;top:-80px;height:0;overflow:hidden;visibility:hidden;"></div>
+<div class="project-section-heading">
   <h2><i>Software</i></h2>
   <p>Simulations, mobile apps, and software development projects.</p>
 </div>
