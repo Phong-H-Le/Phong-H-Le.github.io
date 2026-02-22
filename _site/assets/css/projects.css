@@ -1,3 +1,33 @@
+/* Smooth scroll (scroll-padding-top is set globally in custom-head.html) */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Project Section Headings */
+.project-section-heading {
+  margin: 3rem 0 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #e1e4e8;
+  scroll-margin-top: 72px;
+}
+
+.project-section-heading:first-of-type {
+  margin-top: 1.5rem;
+}
+
+.project-section-heading h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #24292e;
+  margin: 0 0 0.25rem 0;
+}
+
+.project-section-heading p {
+  font-size: 0.9rem;
+  color: #6a737d;
+  margin: 0;
+}
+
 /* Project Gallery Styles */
 
 .project-gallery {

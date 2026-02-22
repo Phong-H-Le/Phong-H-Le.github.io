@@ -9,9 +9,9 @@ permalink: /projects/
 You will find detailed documentation of my engineering/research work, including presentations, media, and downloadable resources.
 
 ---
-
+<div style="margin: 2rem;"></div>
 <div class="project-section-heading" id="bioinstrumentation">
-  <h2>Bioinstrumentation</h2>
+  <h2><i>Bioinstrumentation</i></h2>
   <p>Electronics, sensors, and hardware instrumentation projects.</p>
 </div>
 
@@ -160,9 +160,9 @@ You will find detailed documentation of my engineering/research work, including 
     </div>
   </div>
 </div>
-
+<div style="margin: 2rem;"></div>
 <div class="project-section-heading" id="computation">
-  <h2>Computation</h2>
+  <h2><i>ML & Modeling</i></h2>
   <p>Machine learning, data analytics, and computational research projects.</p>
 </div>
 
@@ -263,9 +263,9 @@ You will find detailed documentation of my engineering/research work, including 
     </div>
   </div>
 </div>
-
+<div style="margin: 2rem;"></div>
 <div class="project-section-heading" id="software">
-  <h2>Software</h2>
+  <h2><i>Software</i></h2>
   <p>Simulations, mobile apps, and software development projects.</p>
 </div>
 
