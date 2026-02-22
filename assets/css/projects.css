@@ -1,7 +1,6 @@
-/* Smooth scroll + offset for sticky header */
+/* Smooth scroll (scroll-padding-top is set globally in custom-head.html) */
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 72px;
 }
 
 /* Project Section Headings */
