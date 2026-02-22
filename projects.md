@@ -9,7 +9,7 @@ permalink: /projects/
 You will find detailed documentation of my engineering/research work, including presentations, media, and downloadable resources.
 
 ---
-<div style="margin: 2rem;"></div>
+<div style="margin: 1rem;"></div>
 <div id="bioinstrumentation" style="position:relative;top:-80px;height:0;overflow:hidden;visibility:hidden;"></div>
 <div class="project-section-heading">
   <h2><i>Bioinstrumentation</i></h2>
@@ -161,7 +161,7 @@ You will find detailed documentation of my engineering/research work, including 
     </div>
   </div>
 </div>
-<div style="margin: 2rem;"></div>
+<div style="margin: 1rem;"></div>
 <div id="ml-modeling" style="position:relative;top:-80px;height:0;overflow:hidden;visibility:hidden;"></div>
 <div class="project-section-heading">
   <h2><i>ML & Modeling</i></h2>
@@ -265,7 +265,7 @@ You will find detailed documentation of my engineering/research work, including 
     </div>
   </div>
 </div>
-<div style="margin: 2rem;"></div>
+<div style="margin: 1rem;"></div>
 <div id="software" style="position:relative;top:-80px;height:0;overflow:hidden;visibility:hidden;"></div>
 <div class="project-section-heading">
   <h2><i>Software</i></h2>
