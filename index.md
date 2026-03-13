@@ -68,7 +68,7 @@ title: Home
       </div>
     </a>
 
-<a href="/assets/Resume.pdf" target="_blank" class="resource-card">
+<a href="/assets/Resume_1.pdf" target="_blank" class="resource-card">
       <img src="/assets/images/resources/resume.png" alt="Resume" class="resource-card-image">
       <div class="resource-card-content">
         <h3>Resume</h3>
