@@ -41,10 +41,7 @@ title: Home
     What consistently motivates me is understanding how complex systems behave and making them work end to end. Whether I’m working with data, sensors, or models, I enjoy the work to distill the messy & abstract to the tangible. Super frustrating in the process, but it is super satisfying in the end. Always willing to learn or lend a helping hand.
   </p>
   <p>
-    I'm actively seeking full-time opportunities and internships in medical device development, imaging technology, and applied machine learning. Experience includes applied ML/hardware projects and research in data analysis, policy, & computational modeling.
-  </p>
-  <p>
-    Looking ahead, I'm passionate about building technologies that can impact <strong>healthcare</strong>, <strong>defense</strong>, and <strong>public systems</strong>. I love leveraging new research to make end-to-end projects.
+    Looking ahead, I have skills and background with <strong>medical device development</strong>, <strong>imaging tech</strong>, or <strong>applied machine learning</strong>. I love leveraging interesting research to make new projects.
   </p>
   
 </div>
@@ -100,13 +97,4 @@ title: Home
       </div>
     </a>
   </div>
-</div>
-
-
-<!-- Double-Slit Interference Animation -->
-<div style="margin: 2rem 0;">
-  <figure class="media-item" style="margin: 0;">
-    <img src="/assets/images/home/doubleslit.gif" alt="Young's double-slit interference animation" style="width: 100%; display: block;">
-    <figcaption>Young's Double-Slit Experiment</figcaption>
-  </figure>
 </div>
