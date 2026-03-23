@@ -6,10 +6,23 @@ permalink: /projects/
 
 <link rel="stylesheet" href="/assets/css/projects.css">
 
-You will find detailed documentation of my engineering/research work, including presentations, media, and downloadable resources.
+You will find overviews of my engineering/research work, including presentations, media, and downloadable resources.
 
----
-<div id="bioinstrumentation" style="position:relative;top:-80px;height:0;overflow:hidden;visibility:hidden;"></div>
+<style>
+  .project-link-disabled {
+    display: inline-block;
+    padding: 0.55rem 1rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: #e5e7eb;
+    color: #6b7280;
+    cursor: default;
+    pointer-events: none;
+  }
+</style>
+
+<div id="bioinstrumentation" style="position:relative;top:-60px;height:0;overflow:hidden;visibility:hidden;"></div>
 <div class="project-section-heading">
   <h2><i>Bioinstrumentation</i></h2>
   <p>Electronics, sensors, and hardware instrumentation projects.</p>
@@ -18,48 +31,44 @@ You will find detailed documentation of my engineering/research work, including 
 <div class="project-gallery">
   <!-- Laser-Mic Project -->
   <div class="project-card">
-    <a href="/projects/laser-mic/" style="text-decoration: none; color: inherit;">
-      <img src="/assets/projects/laser-mic/thumbnail.jpg" alt="Laser Microphone" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/6c5ce7/ffffff?text=Laser+Microphone'">
-      <div class="project-card-content">
-        <h3 class="project-card-title">Laser Microphone</h3>
-        <p class="project-card-date">Feb 2026 - Present | Work in Progress</p>
-        <p class="project-card-description">
-          <strong>Senior project to image inside tissue using laser light and sound.</strong> Reconstructing photo-acoustic signals in tissue phantom by observing interferometry changes from a reflected laser beam.
-        </p>
-        <div class="project-card-tags">
-          <span class="project-tag">Biophotonics</span>
-          <span class="project-tag">Microcontrollers</span>
-          <span class="project-tag">Signal Processing</span>
-        </div>
+    <img src="/assets/projects/laser-mic/thumbnail.jpg" alt="Laser Microphone" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/6c5ce7/ffffff?text=Laser+Microphone'">
+    <div class="project-card-content">
+      <h3 class="project-card-title">Laser Microphone</h3>
+      <p class="project-card-date">Feb 2026 - Present | Work in Progress</p>
+      <p class="project-card-description">
+        <strong>Senior project to image inside tissue using laser light and sound.</strong> Reconstructing photo-acoustic signals in tissue phantom by observing interferometry changes from a reflected laser beam.
+      </p>
+      <div class="project-card-tags">
+        <span class="project-tag">Biophotonics</span>
+        <span class="project-tag">Microcontrollers</span>
+        <span class="project-tag">Signal Processing</span>
       </div>
-    </a>
+    </div>
     <div class="project-card-content" style="padding-top: 0;">
       <div class="project-card-links">
-        <a href="/projects/laser-mic/" class="project-link project-link-primary">View Details</a>
+        <span class="project-link-disabled">Coming Soon</span>
       </div>
     </div>
   </div>
 
   <!-- WiFi-RF Imaging Project -->
   <div class="project-card">
-    <a href="/projects/wifi-rf/" style="text-decoration: none; color: inherit;">
-      <img src="/assets/projects/wifi-rf/thumbnail.jpg" alt="WiFi-RF Sensing" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/6c5ce7/ffffff?text=WiFi-RF+Sensing'">
-      <div class="project-card-content">
-        <h3 class="project-card-title">WiFi-RF Sensing Project</h3>
-        <p class="project-card-date">Jan 2026 - Present | Work in Progress</p>
-        <p class="project-card-description">
-          <strong>Personal project to detect movement and presence in any room with WiFi.</strong> Developing wireless sensing capabilities from ESP32 IoT microcontrollers for RF-based imaging applications.
-        </p>
-        <div class="project-card-tags">
-          <span class="project-tag">ESP32</span>
-          <span class="project-tag">IoT</span>
-          <span class="project-tag">Wireless Sensing</span>
-        </div>
+    <img src="/assets/projects/wifi-rf/thumbnail.jpg" alt="WiFi-RF Sensing" class="project-card-image" onerror="this.src='https://via.placeholder.com/400x200/6c5ce7/ffffff?text=WiFi-RF+Sensing'">
+    <div class="project-card-content">
+      <h3 class="project-card-title">WiFi-RF Sensing Project</h3>
+      <p class="project-card-date">Jan 2026 - Present | Work in Progress</p>
+      <p class="project-card-description">
+        <strong>Personal project to detect movement and presence in any room with WiFi.</strong> Developing wireless sensing capabilities from ESP32 IoT microcontrollers for RF-based imaging applications.
+      </p>
+      <div class="project-card-tags">
+        <span class="project-tag">ESP32</span>
+        <span class="project-tag">IoT</span>
+        <span class="project-tag">Wireless Sensing</span>
       </div>
-    </a>
+    </div>
     <div class="project-card-content" style="padding-top: 0;">
       <div class="project-card-links">
-        <a href="/projects/wifi-rf/" class="project-link project-link-primary">View Details</a>
+        <span class="project-link-disabled">Coming Soon</span>
       </div>
     </div>
   </div>
@@ -160,7 +169,8 @@ You will find detailed documentation of my engineering/research work, including 
     </div>
   </div>
 </div>
-<div id="ml-modeling" style="position:relative;top:-80px;height:0;overflow:hidden;visibility:hidden;"></div>
+
+<div id="ml-modeling" style="position:relative;top:-60px;height:0;overflow:hidden;visibility:hidden;"></div>
 <div class="project-section-heading">
   <h2><i>ML & Modeling</i></h2>
   <p>Machine learning, data analytics, and computational research projects.</p>
@@ -263,7 +273,8 @@ You will find detailed documentation of my engineering/research work, including 
     </div>
   </div>
 </div>
-<div id="software" style="position:relative;top:-80px;height:0;overflow:hidden;visibility:hidden;"></div>
+
+<div id="software" style="position:relative;top:-60px;height:0;overflow:hidden;visibility:hidden;"></div>
 <div class="project-section-heading">
   <h2><i>Software</i></h2>
   <p>Simulations, mobile apps, and software development projects.</p>
