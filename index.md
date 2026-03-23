@@ -41,7 +41,7 @@ title: Home
     What consistently motivates me is understanding how complex systems behave and making them work end to end. Whether I’m working with data, sensors, or models, I enjoy the work to distill the messy & abstract to the tangible. Super frustrating in the process, but it is super satisfying in the end. Always willing to learn or lend a helping hand.
   </p>
   <p>
-    Looking ahead, I have skills and background with <strong>medical device development</strong>, <strong>imaging tech</strong>, or <strong>applied machine learning</strong>. I love leveraging interesting research to make new projects.
+    Looking ahead, I have skills and background with medical device development, imaging tech, or applied machine learning. I love leveraging interesting research to make new projects.
   </p>
   
 </div>
